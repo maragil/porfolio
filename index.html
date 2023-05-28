@@ -17,9 +17,9 @@
     <header class="header">
         <div class="container">
             <!-- NAVBAR -->
-            <nav class="row navbar-expand-sm navbar-transpatent navbar-dark px-3 pt-4 fixed-top text-white align-items-center text-uppercase">
+            <nav class="row navbar-expand-sm navbar-transpatent px-3 pt-4 fixed-top text-dark align-items-center text-uppercase">
                 <!-- LOGO -->
-                <a class="col-auto text-reset h5" href="#"> < MaraGil /></a>
+                <a class="col-auto text-reset h5" href="#home"> < MaraGil /></a>
 
             <button class="toggler navbar-toggler collapsed"
             type="button"
@@ -32,19 +32,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="col-auto navbar-collapse collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item h6"><a class="nav-link" href="#">Proyectos</a></li>
-                    <li class="nav-item h6"><a class="nav-link" href="#">Sobre mí</a></li>
-                    <li class="nav-item h6"><a class="nav-link" href="#">Currículum</a></li>
+            <div class="col-auto navbar-collapse collapse text-dark" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item h6 "><a class="nav-link text-reset" href="#">Proyectos</a></li>
+                    <li class="nav-item h6"><a class="nav-link text-reset" href="#aboutme">Sobre mí</a></li>
+                    <li class="nav-item h6"><a class="nav-link text-reset" href="#">Currículum</a></li>
                 </ul>
             </div>
         </nav>
 
     <!-- DESCRIPCION -->
-
             <div id="home" class="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
-
         <!-- TITULO-->
                 <div class="text-center container">
                     <h1 class="h1">María Araujo Gil</h1>
@@ -52,10 +50,10 @@
                     <span>Una frase que me describa</spa>
                     <!-- LINKS -->
                     <div class="p-5 icons d-flex justify-content-evenly">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/maragil" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-github fa-3x socialicons text-white"></i>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-linkedin fa-3x socialicons text-white"></i>
                         </a>
                         <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -70,6 +68,30 @@
             </div>
         </div>
     </header>
+
+    <!-- ABOUT ME -->
+    <section class="container py-5" id="aboutme">
+        <div class="container row d-flex justify-content-center">
+            <div class="img col-5 d-none d-lg-block align-self-center">
+            <img src="./img/foto.JPG" alt="Imagen de perfil" class="img-about img-thumbnail">
+            </div>
+            <div class="col-7 mt-5 text-center">
+                <h2 class="title-about">Sobre mi</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatem, cupiditate tempore facilis vero doloribus aliquid numquam perferendis nisi porro.</p>
+                <!-- BOTÓN -->
+                <p class="">
+                    <a class="btn btn-outline-dark btn-lg text-uppercase bg-dark text-white"
+                    aria-label="cv"
+                    href="#cv">cv</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="container">
+
+    </section>
 <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
