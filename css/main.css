@@ -29,13 +29,22 @@
 	}
 }
 
-.img-about {
+.about{
+  background-color: rgb(233, 236, 239);
+}
+.about__img {
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  box-shadow: 7px 7px 7px rgba(0 0 0 /0.5);
+  border: 3px ridge darkorchid;
+  object-fit: cover;
 }
 
-.title-about{
-  color: cornflowerblue;
+.about__title {
   color: darkorchid;
+}
+
+.project-title{
+  color: cornflowerblue
 }
