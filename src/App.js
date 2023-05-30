@@ -17,9 +17,11 @@ function App() {
                 <div id="home" className="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
             {/* <!-- TITULO--> */}
                     <div className="text-center container">
-                        <h1 className="h1">María Araujo Gil</h1>
+                        <h1 className="display-3">María Araujo Gil</h1>
                         {/* <!-- FRASE --> */}
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, tempore.</p>
+                        <blockquote className="blockquote fs-6">
+                            <p>Una cita conocida, contenida en un elemento blockquote.</p>
+                        </blockquote>
                         {/* <!-- LINKS --> */}
                         <div className="p-5 icons d-flex justify-content-evenly">
                             <a  href="https://github.com/maragil"
@@ -45,13 +47,13 @@ function App() {
     </header>
 
         {/* <!-- ABOUT ME --> */}
-        <section className="col-auto py-5 about mb-5 d-flex justify-content-center" id="aboutme">
+        <section className="col-lg-auto py-5 about mb-5 d-flex justify-content-center" id="aboutme">
             <div className="container row">
                 <div className="img col-5 d-none d-lg-block align-self-center">
                 <img src={foto} alt="Imagen de perfil"
                         className="about__img img-thumbnail"/>
                 </div>
-                <div className="col-7 mt-5 text-center">
+                <div className="col-lg-7 mt-5 text-center">
                     <h2 className="about__title">Sobre mi</h2>
                     <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatem, cupiditate tempore facilis vero doloribus aliquid numquam perferendis nisi porro.</p>
                     {/* <!-- BOTÓN --> */}
@@ -74,10 +76,12 @@ function App() {
                 </div>
 
                 {/* <!-- Proyectos --> */}
-                <ul className="row container justify-content-around" >
+
+                <ul className="row justify-content-center gap-3" >
+
                     {/* <!-- Proyecto 1 --> */}
-                    <div className="col-5 card">
-                        <div className="card-body">
+                    <div className="col-lg-5 card mt-3">
+                        <div className="card-body-overlay">
                             <h5 className="card-title text-center">
                                 <a href="#repoGitbub" className="text-reset">Nombre del proyecto 1</a>
                             </h5>
@@ -90,13 +94,29 @@ function App() {
                             </div>
                         </div>
                     </div>
+
                     {/* <!-- Proyecto 2 --> */}
-                    <div className="card col-5">
+                    <div className="col-lg-5 card  mt-3">
                         <div className="card-body">
                             <h5 className="card-title text-center">
                                 <a href="#repoGitbub" className="text-reset">Nombre del proyecto 2</a>
                             </h5>
                             <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, ea?</p>
+                            <div className="link-git text-center">
+                                <a href="#repoGithub">
+                                    <i className="fab fa-github text-dark">Repo</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Proyecto 3 */}
+                    <div className="col-lg-5 card mt-3">
+                        <div className="card-body">
+                            <h5 className="card-title text-center">
+                                <a href="#repoGitbub" className="text-reset">Nombre del proyecto 1</a>
+                            </h5>
+                            <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, ea?</p>
+                            <p>Tecnologías</p>
                             <div className="link-git text-center">
                                 <a href="#repoGithub">
                                     <i className="fab fa-github text-dark">Repo</i>
