@@ -1,30 +1,45 @@
 function Navbar () {
 
     return(
-        <nav className="row navbar-expand-sm navbar-transpatent px-3 pt-4 fixed-top text-dark text-uppercase">
-                    {/* <!-- LOGO --> */}
-                    <a  href="#home"
-                        className="col-12 col-md-auto text-reset h5 text-decoration-none" >  MaraGil </a>
+        <nav className="navbar navbar-light navbar-expand-sm bg-transparent pt-4 fixed-top text-dark text-uppercase">
+            <div className="container">
 
-                {/* <button className="toggler navbar-toggler collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
+                        {/* <!-- LOGO --> */}
+                {/* <a  href="#home"
+                    className="col-12 col-md-auto text-reset h5 text-decoration-none" >  MaraGil </a> */}
+                    <a  href="#home"
+                    className="navbar-brand text-decoration-none text-reset h5" >&#8826; MaraGil &#x2571;&#x227B;</a>
+
+                <button className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
 
                     <span className="navbar-toggler-icon"></span>
-                </button> */}
+                </button>
 
-                <div className="col-12 col-md-auto navbar-collapse collapse text-dark " id="navbarNavDropdown">
-                    <ul className="navbar-nav">
-                        <li className="nav-item h6"><a className="nav-link text-reset" href="#projects">Proyectos</a></li>
-                        <li className="nav-item h6"><a className="nav-link text-reset" href="#aboutme">Sobre mí</a></li>
-                        <li className="nav-item h6"><a className="nav-link text-reset" target="_blank" href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a></li>
+                <div className="navbar-collapse collapse show" id="navbarNavDropdown">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <a  className="nav-link active"
+                                href="#projects">Proyectos</a>
+                        </li>
+                        <li className="nav-item">
+                            <a  className="nav-link active"
+                                href="#aboutme">Sobre mí</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active"
+                                target="_blank"
+                                href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a>
+                        </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
     )
 }
 

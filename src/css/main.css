@@ -1,9 +1,8 @@
-
 .header {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	-webkit-animation: gradient 18s ease infinite;
-	        animation: gradient 18s ease infinite;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
 }
 
 @-webkit-keyframes gradient {
@@ -48,4 +47,12 @@
 
 .project-title{
   color: cornflowerblue
+}
+
+.footer-nav{
+	@media all and (max-width: 425px ){
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
 }

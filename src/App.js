@@ -5,18 +5,18 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="header">
-            <div className="container">
-
+    return (
+        <div className="App">
+            <header className="header">
                 {/*NAVBAR */}
                 <Navbar/>
 
-        {/* <!-- DESCRIPCION --> */}
-                <div id="home" className="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
-            {/* <!-- TITULO--> */}
-                    <div className="text-center container">
+                {/* <!-- DESCRIPCION --> */}
+                    <div id="home" className="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
+
+                    {/* <!-- TITULO--> */}
+                    <div className="text-center">
+
                         <h1 className="display-3">María Araujo Gil</h1>
                         {/* <!-- FRASE --> */}
                         <blockquote className="blockquote fs-6">
@@ -43,7 +43,7 @@ function App() {
                             href="#aboutme">Más sobre mi</a>
                     </div>
                 </div>
-            </div>
+
     </header>
 
         {/* <!-- ABOUT ME --> */}
@@ -69,8 +69,8 @@ function App() {
 
         {/* <!-- PROJECTS --> */}
         <section className="container" id="projects">
-            <div className="row">
-                <div className="col-12 text-center">
+            <div className="row justify-content-center">
+                <div className="col-12">
                     <h2 className="project-title">Proyectos</h2>
                     <p>Mira mis proyectos más recientes</p>
                 </div>
@@ -80,8 +80,8 @@ function App() {
                 <ul className="row justify-content-center gap-3" >
 
                     {/* <!-- Proyecto 1 --> */}
-                    <div className="col-lg-5 card mt-3">
-                        <div className="card-body-overlay">
+                    <div className="col-md-5 card mt-3">
+                        <div className="card-body-overlay mt-2">
                             <h5 className="card-title text-center">
                                 <a href="#repoGitbub" className="text-reset">Nombre del proyecto 1</a>
                             </h5>
@@ -96,8 +96,8 @@ function App() {
                     </div>
 
                     {/* <!-- Proyecto 2 --> */}
-                    <div className="col-lg-5 card  mt-3">
-                        <div className="card-body">
+                    <div className="col-md-5 card  mt-3">
+                        <div className="card-body-overlay mt-2">
                             <h5 className="card-title text-center">
                                 <a href="#repoGitbub" className="text-reset">Nombre del proyecto 2</a>
                             </h5>
@@ -110,8 +110,8 @@ function App() {
                         </div>
                     </div>
                     {/* Proyecto 3 */}
-                    <div className="col-lg-5 card mt-3">
-                        <div className="card-body">
+                    <div className="col-md-5 card mt-3">
+                        <div className="card-body-overlay mt-2">
                             <h5 className="card-title text-center">
                                 <a href="#repoGitbub" className="text-reset">Nombre del proyecto 1</a>
                             </h5>
