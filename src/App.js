@@ -2,9 +2,9 @@ import './App.css';
 import '../src/css/main.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Hero from './pages/Hero';
-import AboutMe from './pages/AboutMe';
-import Projects from './pages/Projects';
+import Hero from './sections/Hero';
+import AboutMe from './sections/AboutMe';
+import Projects from './sections/ProjectsSection/AllProjects';
 
 function App() {
     return (
@@ -19,16 +19,16 @@ function App() {
 
             </header>
 
-        {/* <!-- ABOUT ME --> */}
-        <AboutMe/>
+            {/* <!-- ABOUT ME --> */}
+            <AboutMe/>
 
-        {/* <!-- PROJECTS --> */}
-        <Projects/>        
+            {/* <!-- PROJECTS --> */}
+            <Projects/>
 
-        {/* <!-- FOOTER --> */}
-        <Footer/>
-    </div>
-  );
+            {/* <!-- FOOTER --> */}
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

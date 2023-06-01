@@ -12,17 +12,17 @@ function Footer() {
                     <ul className="list-unstyled col-sm-4">
                         <li>
                             <a  href="https://github.com/maragil"
-                                target="_blank" rel="noopener noreferrer"
+                                target="_blank"
                                 className="me-3">
                                 <i className="fab fa-github fa-2x socialicons text-white "></i>
                             </a>
                             <a  href="https://www.linkedin.com/feed/"
-                                target="_blank" rel="noopener noreferrer"
+                                target="_blank"
                                 className="me-3">
                                 <i className="fab fa-linkedin fa-2x socialicons text-white"></i>
                             </a>
                             <a  href="http://"
-                                target="_blank" rel="noopener noreferrer"
+                                target="_blank"
                                 className="me-3">
                                 <i className="fab fa-twitter fa-2x socialicons text-white"></i>
                             </a>
