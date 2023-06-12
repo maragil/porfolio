@@ -30,23 +30,23 @@
 }
 
 .about{
-  background-color: rgb(233, 236, 239);
+	background-color: rgb(233, 236, 239);
 }
 .about__img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  box-shadow: 7px 7px 7px rgba(0 0 0 /0.5);
-  border: 3px ridge darkorchid;
-  object-fit: cover;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	box-shadow: 7px 7px 7px rgba(0 0 0 /0.5);
+	border: 3px ridge darkorchid;
+	object-fit: cover;
 }
 
 .about__title {
-  color: darkorchid;
+	color: darkorchid;
 }
 
 .project-title{
-  color: cornflowerblue
+	color: cornflowerblue
 }
 
 .footer-nav{
@@ -55,4 +55,8 @@
 		flex-direction: column;
 		gap: 5px;
 	}
+}
+
+.card{
+	box-shadow: 7px 7px 7px rgba(0 0 0 /0.5);
 }

@@ -1,6 +1,7 @@
 function Hero () {
 
     return (
+       <div className="container">
         <div id="home" className="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
 
             {/* <!-- NOMBRE--> */}
@@ -8,8 +9,8 @@ function Hero () {
                 <h1 className="display-3">María Araujo Gil</h1>
 
                 {/* <!-- CITA--> */}
-                <blockquote className="blockquote fs-6">
-                    <p>Una cita conocida, contenida en un elemento blockquote.</p>
+                <blockquote className="blockquote fs-7">
+                    <p>No hay una segunda oportunidad para una primera impresión.</p>
                 </blockquote>
 
                 {/* <!-- LINKS --> */}
@@ -33,6 +34,7 @@ function Hero () {
                     href="#aboutme">Más sobre mi</a>
             </div>
         </div>
+    </div>
     )
 }
 

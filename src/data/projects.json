@@ -1,0 +1,52 @@
+{
+"projects": [
+        {
+        "id": 0,
+        "name": "Harry Potter",
+        "desc": "Buscador de personajes de la serie Harry Potter. Puedes buscarlos por sus nombres o por la casa a la que  pertenecen.",
+        "tec": "HTML - SCSS - REACT",
+        "repo": "#",
+        "img": "#"
+    },
+        {
+        "id": 1,
+        "name": "Colección Pokemon",
+        "desc": "Buscador de personajes Pokemon.",
+        "tec": "HTML - CSS - REACT",
+        "repo": "#",
+        "img": "#"
+    },
+        {
+        "id": 2,
+        "name": "Web de Deportes",
+        "desc": "Página Web con información y secciones",
+        "tec": "HTML - SCSS",
+        "repo": "#",
+        "img": "#"
+    },
+        {
+        "id": 3,
+        "name": "Calculadora JS",
+        "desc": "Pulsa sus botones para hacer cálculos matemáticos.",
+        "tec": "HTML - CSS - JS",
+        "repo": "#",
+        "img": "#"
+    },
+        {
+        "id": 4,
+        "name": "Buscador frases Friends",
+        "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
+        "tec": "HTML - CSS - REACT JS",
+        "repo": "#",
+        "img": "#"
+    },
+        {
+        "id": 4,
+        "name": "Awesome Profile Cards",
+        "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
+        "tec": "HTML - CSS - REACT JS",
+        "repo": "#",
+        "img": "#"
+    }
+]
+}
