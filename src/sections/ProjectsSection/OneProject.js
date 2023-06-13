@@ -1,4 +1,7 @@
+import data from '../../data/projects.json';
+
 function OneProject (){
+    console.log(data);
 
     return (
 

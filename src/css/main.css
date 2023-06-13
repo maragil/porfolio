@@ -29,6 +29,13 @@
 	}
 }
 
+.name {
+	font-size: 100px;
+}
+.cita{
+	font-weight: 300;
+}
+
 .about{
 	background-color: rgb(233, 236, 239);
 }

@@ -1,11 +1,8 @@
 import OneProject from "./OneProject";
 
 
-function AllProjects ({allProjects}) {
+function AllProjects () {
 
-    const dataHtml = allProjects.map((eachProject) => {
-        return <OneProject eachProject={eachProject}/>;
-    });
 
     return (
         <section className="container" id="projects">
@@ -18,17 +15,18 @@ function AllProjects ({allProjects}) {
                 {/* <!-- Proyectos --> */}
 
                 <ul className="row justify-content-center gap-3" >
-                    {dataHtml}
-                    {/* <!-- Proyecto 1 -->
+
+                    {/* Proyecto 1 */}
                     <OneProject/>
 
-                    <!-- Proyecto 2 --> 
+                    {/* Proyecto 2 */}
                     <OneProject/>
 
-                     Proyecto 3 
+                   {/* Proyecto 3 */}
                     <OneProject/>
 
-                    <OneProject/> */}
+                    {/* Proyecto 4 */}
+                    <OneProject/>
 
                 </ul>
             </div>

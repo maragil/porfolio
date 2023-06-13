@@ -4,48 +4,72 @@
         "id": 0,
         "name": "Harry Potter",
         "desc": "Buscador de personajes de la serie Harry Potter. Puedes buscarlos por sus nombres o por la casa a la que  pertenecen.",
-        "tec": "HTML - SCSS - REACT",
-        "repo": "#",
+        "tec": "HTML5 - SCSS - REACT JS - Git - GitHub",
+        "repo": "https://github.com/maragil/harry-potter-character-search",
         "img": "#"
     },
         {
         "id": 1,
         "name": "Colección Pokemon",
-        "desc": "Buscador de personajes Pokemon.",
-        "tec": "HTML - CSS - REACT",
-        "repo": "#",
+        "desc": "Buscador de personajes Pokemon según el tipo al que pertencen.",
+        "tec": "HTML5 - CSS3 - REACT JS - Git - GitHub",
+        "repo": "https://github.com/maragil/pokemon-filter",
         "img": "#"
     },
         {
         "id": 2,
         "name": "Web de Deportes",
-        "desc": "Página Web con información y secciones",
-        "tec": "HTML - SCSS",
-        "repo": "#",
+        "desc": "Página Web con información y secciones.",
+        "tec": "HTML5 - SCSS - Git - GitHub",
+        "repo": "https://github.com/maragil/landing-web",
         "img": "#"
     },
         {
         "id": 3,
-        "name": "Calculadora JS",
+        "name": "Calculadora JavaScript",
         "desc": "Pulsa sus botones para hacer cálculos matemáticos.",
-        "tec": "HTML - CSS - JS",
-        "repo": "#",
+        "tec": "HTML5 - CSS3 - JavaScript - Git - GitHub",
+        "repo": "https://github.com/maragil/calculator-js",
         "img": "#"
     },
         {
         "id": 4,
         "name": "Buscador frases Friends",
         "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
-        "tec": "HTML - CSS - REACT JS",
-        "repo": "#",
+        "tec": "HTML5 - CSS3 - React JS - Git - GitHub",
+        "repo": "https://github.com/maragil/Friends-phrase-search-engine",
         "img": "#"
     },
         {
-        "id": 4,
+        "id": 5,
         "name": "Awesome Profile Cards",
-        "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
-        "tec": "HTML - CSS - REACT JS",
-        "repo": "#",
+        "desc": "Crea tus propias tarjetas de visita personalizadas, modificalas cuando quieras y compártelas con tus contactos.",
+        "tec": "HTML5 - CSS3 - React JS - Node JS - Git - GitHub",
+        "repo": "https://github.com/maragil/awesome-profile-cards",
+        "img": "#"
+    },
+    {
+        "id": 6,
+        "name": "Guess the number",
+        "desc": "¿Cuántos intentos necesitas para adivinar el número?",
+        "tec": "HTML5 - CSS3 - JavaScript - Git - GitHub",
+        "repo": "https://github.com/maragil/guess-the-number",
+        "img": "#"
+    },
+    {
+        "id": 7,
+        "name": "Gestor de Proyectos molones",
+        "desc": "Escaparate en línea para mostrar tus proyectos y añadir proyectos nuevos.",
+        "tec": "HTML5 - SCSS - JavaScript - React JS - Node JS - Git - GitHub",
+        "repo": "https://github.com/maragil/personal-projects-display",
+        "img": "#"
+    },
+    {
+        "id": 8,
+        "name": "Web Equipo Brújula",
+        "desc": "Web con información social de los miembros de un equipo.",
+        "tec": "HTML5 - SCSS - GULP - Git - GitHub ",
+        "repo": "https://github.com/maragil/social-info-web",
         "img": "#"
     }
 ]

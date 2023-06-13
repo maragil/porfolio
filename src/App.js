@@ -6,12 +6,12 @@ import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
 import { useState } from 'react';
 import AllProjects from './sections/ProjectsSection/AllProjects';
-import data from '../src/data/projects.json';
+
 
 
 function App() {
 
-    const [allProjects, setAllProjects] = useState(data)
+    // const [allProjects, setAllProjects] = useState(data)
 
     return (
         <div className="App">
@@ -29,7 +29,7 @@ function App() {
             <AboutMe/>
 
             {/* <!-- PROJECTS --> */}
-            <AllProjects allProjects={allProjects}/>
+            <AllProjects />
 
             {/* <!-- FOOTER --> */}
             <Footer/>
