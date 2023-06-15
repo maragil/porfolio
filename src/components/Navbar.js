@@ -1,12 +1,44 @@
 function Navbar () {
 
     return(
-        <nav className="navbar navbar-light navbar-expand-sm bg-transparent pt-4 fixed-top text-dark text-uppercase">
+    //     <nav class="navbar navbar-expand-sm navbar-dark pt-3 h4" id="navbar">
+    //     <div class="container">
+    //       <a class="navbar-brand " href="#">
+    //         <img src="./assets/images/logo-landing.png" alt="logo" class="img-logo"
+    //       /></a>
+    //       <button
+    //         class="navbar-toggler"
+    //         type="button"
+    //         data-bs-toggle="collapse"
+    //         data-bs-target="#navbarNavDropdown"
+    //         aria-controls="navbarNavDropdown"
+    //         aria-expanded="false"
+    //         aria-label="Toggle navigation"
+    //       >
+    //         <span class="navbar-toggler-icon"></span>
+    //       </button>
+    
+    //       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    //         <ul class="navbar-nav ms-auto">
+    //           <li class="nav-item">
+    //             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+    //           </li>
+    //           <li class="nav-item">
+    //             <a class="nav-link" href="#">Shop</a>
+    //           </li>
+    //           <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+    //           <li class="nav-item">
+    //             <a class="nav-link" href="#">Register</a>
+    //           </li>
+    //           <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+    //         </ul>
+    //       </div>
+    //     </div>
+    //   </nav>
+        <nav className="navbar navbar-light navbar-expand-md bg-transparent pt-4 text-dark text-uppercase fixed-top">
             <div className="container">
 
                         {/* <!-- LOGO --> */}
-                {/* <a  href="#home"
-                    className="col-12 col-md-auto text-reset h5 text-decoration-none" >  MaraGil </a> */}
                     <a  href="#home"
                     className="navbar-brand text-decoration-none text-reset h5" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
