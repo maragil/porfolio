@@ -9,9 +9,9 @@ function Hero () {
                 <h1 className="display-3 name">María Araujo Gil</h1>
 
                 {/* <!-- CITA--> */}
-                    <p className="fs-4 cita">
-                        No es donde estábamos, ni donde estamos, sino dónde queremos estar.
-                        {/* No hay una segunda oportunidad para una primera impresión. */}
+                    <p className="fs-4 quote">
+                        {/* No es donde estábamos, ni donde estamos, sino dónde queremos estar. */}
+                        No hay una segunda oportunidad para una primera impresión.
                         </p>
 
                 {/* <!-- LINKS --> */}
