@@ -1,8 +1,15 @@
 import OneProject from "./OneProject";
+import projects from '../../data/projects.json';
+import { useState } from 'react';
 
 
-function AllProjects () {
+function AllProjects ({data}) {
 
+    // const [data, setData] = useState(projects);
+
+    const htmlData = data.map((eachProject) => {
+        return <OneProject eachProject={eachProject}/>;
+    });
 
     return (
         <section className="container" id="projects">
@@ -14,26 +21,14 @@ function AllProjects () {
 
                 {/* <!-- Proyectos --> */}
 
-                <ul className="row justify-content-center gap-3" >
-
-                    {/* Proyecto 1 */}
-                    <OneProject/>
-
-                    {/* Proyecto 2 */}
-                    <OneProject/>
-
-                   {/* Proyecto 3 */}
-                    <OneProject/>
-
-                    {/* Proyecto 4 */}
-                    <OneProject/>
-
+                <ul className="row justify-content-center gap-3">
+                    {htmlData}
                 </ul>
             </div>
 
         </section>
 
-    )
+    );
 }
 
 export default AllProjects;

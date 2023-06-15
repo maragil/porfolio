@@ -1,17 +1,16 @@
 // import './App.css';
-import '../src/scss/App.scss';
+import '../src/styles/App.scss';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
-import { useState } from 'react';
 import AllProjects from './sections/ProjectsSection/AllProjects';
-
-
+import projects from '../src/data/projects.json';
+import { useState } from 'react';
 
 function App() {
 
-    // const [allProjects, setAllProjects] = useState(data)
+    const [data, setData] = useState(projects);
 
     return (
         <div className="App">
@@ -29,7 +28,7 @@ function App() {
             <AboutMe/>
 
             {/* <!-- PROJECTS --> */}
-            <AllProjects />
+            <AllProjects  data={data}/>
 
             {/* <!-- FOOTER --> */}
             <Footer/>
