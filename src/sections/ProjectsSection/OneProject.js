@@ -1,3 +1,5 @@
+import '../../styles/layout/OneProject.scss';
+
 function OneProject ({eachProject}){
 
     return (
@@ -18,6 +20,8 @@ function OneProject ({eachProject}){
                         <i className="fab fa-github text-dark"></i>
                     </a>
                 </p>
+                <img src= {`/img/${eachProject.img}`} alt=""
+                    className="img-project"/>
             </div>
         </div>
     )

@@ -1,7 +1,4 @@
 import OneProject from "./OneProject";
-import projects from '../../data/projects.json';
-import { useState } from 'react';
-
 
 function AllProjects ({data}) {
 

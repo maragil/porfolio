@@ -1,3 +1,5 @@
+import '../styles/layout/Navbar.scss';
+
 function Navbar () {
 
     return(
@@ -35,12 +37,12 @@ function Navbar () {
     //       </div>
     //     </div>
     //   </nav>
-        <nav className="navbar navbar-light navbar-expand-md bg-transparent pt-4 text-dark text-uppercase fixed-top">
+        <nav className="navbar navbar-light navbar-expand-md pt-4 text-dark text-uppercase fixed-top">
             <div className="container">
 
                         {/* <!-- LOGO --> */}
                     <a  href="#home"
-                    className="navbar-brand text-decoration-none text-reset h5" >&#8826; MaraGil &#x2571;&#x227B;</a>
+                    className="navbar-brand text-decoration-none h5 text-logo" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
                 <button className="navbar-toggler"
                     type="button"
