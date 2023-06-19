@@ -18,7 +18,7 @@ function AllProjects ({data}) {
 
                 {/* <!-- Proyectos --> */}
 
-                <ul className="row justify-content-center gap-3">
+                <ul className="row justify-content-center gap-5">
                     {htmlData}
                 </ul>
             </div>

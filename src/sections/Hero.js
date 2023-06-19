@@ -24,7 +24,7 @@ function Hero () {
                         target="_blank">
                         <i className="fab fa-linkedin fa-3x socialicons text-white"></i></a>
 
-                    <a  href="http://"
+                    <a  href="https://twitter.com/araujomaria84"
                         target="_blank">
                         <i className="fab fa-twitter fa-3x socialicons text-white"></i></a>
                 </div>
