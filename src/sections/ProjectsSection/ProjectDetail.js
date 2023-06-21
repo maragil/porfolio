@@ -1,5 +1,3 @@
-import '../../styles/layout/ProjectDetail.scss';
-
 function ProjectDetail ({eachProject}){
 
     return (

@@ -1,5 +1,3 @@
-import '../styles/layout/Navbar.scss';
-
 function Navbar () {
 
     return(

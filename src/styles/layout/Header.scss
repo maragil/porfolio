@@ -1,13 +1,10 @@
-.header, .navbar{
+.header {
 	background: $background-animation;
 	background-size: $background-size;
 	-webkit-animation: $webkit-animation;
 	        animation: $animation
 }
 
-.navbar{
-	opacity: 0.8;
-}
 
 @-webkit-keyframes gradient {
 	0% {
