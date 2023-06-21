@@ -4,7 +4,7 @@
         "name": "Harry Potter",
         "url":"https://harry-potter-character-search.maragil.com",
         "desc": "Buscador de personajes de la serie Harry Potter. Puedes buscarlos por sus nombres o por la casa a la que  pertenecen.",
-        "tec": "HTML5 - SCSS - REACT JS - Git - GitHub",
+        "tec": "HTML5 - SCSS - React JS - Git - GitHub",
         "repo": "https://github.com/maragil/harry-potter-character-search",
         "img": "/img-projects/hp-character.png"
     },
@@ -13,13 +13,13 @@
         "name": "Colección Pokemon",
         "url":"https://pokemon.maragil.com",
         "desc": "Buscador de personajes Pokemon según el tipo al que pertencen.",
-        "tec": "HTML5 - CSS3 - REACT JS - Git - GitHub",
+        "tec": "HTML5 - CSS3 - React JS - Git - GitHub",
         "repo": "https://github.com/maragil/pokemon-filter",
         "img": "/img-projects/pokedex.png"
     },
         {
         "id": 2,
-        "name": "Web de Deportes",
+        "name": "Web Deportiva",
         "url":"https://landing-web-example.maragil.com",
         "desc": "Página Web con información y secciones.",
         "tec": "HTML5 - SCSS - Git - GitHub",
@@ -37,7 +37,7 @@
     },
         {
         "id": 4,
-        "name": "Buscador frases Friends",
+        "name": "Buscador Friends",
         "url":"https://friends-phrase-search-engine.maragil.com",
         "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
         "tec": "HTML5 - CSS3 - React JS - Git - GitHub",
