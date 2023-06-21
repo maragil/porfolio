@@ -9,12 +9,12 @@ function ProjectDetail ({eachProject}){
                 <h5 className="card-title text-center" >
 
                     <a href={eachProject.url}
-                        className="text-reset "
+                        className="text-reset fw-bold text-decoration-none"
                         target= "_blank"> {eachProject.name}</a>
 
                 </h5>
 
-                <p className="card-text">{eachProject.desc}</p>
+                <p className="card-text text-center">{eachProject.desc}</p>
 
                 <div className='div-img'>
 
