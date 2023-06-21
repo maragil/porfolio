@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
-import AllProjects from './sections/ProjectsSection/AllProjects';
+import ListProjects from './sections/ProjectsSection/ListProjects';
 import projects from '../src/data/projects.json';
 import { useState } from 'react';
 
@@ -28,7 +28,7 @@ function App() {
             <AboutMe/>
 
             {/* <!-- PROJECTS --> */}
-            <AllProjects  data={data}/>
+            <ListProjects  data={data}/>
 
             {/* <!-- FOOTER --> */}
             <Footer/>

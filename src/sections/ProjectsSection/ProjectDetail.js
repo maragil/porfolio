@@ -1,6 +1,6 @@
-import '../../styles/layout/OneProject.scss';
+import '../../styles/layout/ProjectDetail.scss';
 
-function OneProject ({eachProject}){
+function ProjectDetail ({eachProject}){
 
     return (
 
@@ -40,4 +40,4 @@ function OneProject ({eachProject}){
     )
 }
 
-export default OneProject;
+export default ProjectDetail;

@@ -1,11 +1,11 @@
-import OneProject from "./OneProject";
+import ProjectDetail from "./ProjectDetail";
 
-function AllProjects ({data}) {
+function ListProjects ({data}) {
 
     // const [data, setData] = useState(projects);
 
     const htmlData = data.map((eachProject) => {
-        return <OneProject eachProject={eachProject}/>;
+        return <ProjectDetail eachProject={eachProject}/>;
     });
 
     return (
@@ -28,4 +28,4 @@ function AllProjects ({data}) {
     );
 }
 
-export default AllProjects;
+export default ListProjects;

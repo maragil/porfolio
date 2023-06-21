@@ -1,1 +1,29 @@
-{"version":3,"file":"static/css/main.81379ac0.css","mappings":"AAAA,EAGI,sBADA,QAAS,CADT,SAEsB,CACzB,OCHA,wBAAoC,CACjC,YAKI,wBCPe,CDKf,iBAAkB,CAClB,8BCJ8B,CDE9B,YAAa,CAIb,iBALA,WAKiB,CACpB,cAEA,aCXkB,CDYlB,QEXD,mBAAoB,CACvB,QCCA,4CAA6C,CACrC,qCAHR,kEAAuE,CACvE,yBAE6C,CAC7C,4BAGA,GACC,yBAA2B,CAE5B,IACC,4BAA6B,CAE9B,GACC,yBAA2B,EAI7B,oBACC,GACC,yBAA2B,CAE5B,IACC,4BAA6B,CAE9B,GACC,yBAA2B,EC3B7B,MACC,eAAgB,CAChB,OAGA,eAAgB,CCFhB,eCFA,aLA8B,CKC9B,MAGA,8BLHqC,CIFtC,QACI,+DAAkG,CAClG,UAAY,CEFhB,SACI,iBAAkB,CACrB,aAGG,YAAa,CAEb,kBADA,WACkB,CACrB,KAIG,WAAY,CACZ,UAAW","sources":["styles/core/reset.scss","styles/layout/AboutMe.scss","styles/core/variables.scss","styles/layout/Footer.scss","styles/layout/Header.scss","styles/layout/Hero.scss","styles/layout/Navbar.scss","styles/layout/AllProjects.scss","styles/layout/OneProject.scss"],"sourcesContent":["*{\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}",".about{\n\tbackground-color: rgb(233, 236, 239);\n    &__img {\n        width: 400px;\n        height: 400px;\n        border-radius: 50%;\n        box-shadow: $box-shadow-black;\n        border: 3px ridge $darkorchid;\n        object-fit: cover;\n    }\n    &__title {\n\t    color: $darkorchid;\n    }\n}","$darkorchid: darkorchid;\n$cornflowerblue: cornflowerblue;\n$box-shadow-black: 7px 7px 7px #3a3a3d;\n$font-nunito: 'Nunito', sans-serif;\n",".footer{\n    padding-inline: 10px;\n}",".header {\n\tbackground: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\n\tbackground-size: 400% 400%;\n\t-webkit-animation: gradient 15s ease infinite;\n\t        animation: gradient 15s ease infinite;\n}\n\n@-webkit-keyframes gradient {\n\t0% {\n\t\tbackground-position: 0% 50%;\n\t}\n\t50% {\n\t\tbackground-position: 100% 50%;\n\t}\n\t100% {\n\t\tbackground-position: 0% 50%;\n\t}\n}\n\n@keyframes gradient {\n\t0% {\n\t\tbackground-position: 0% 50%;\n\t}\n\t50% {\n\t\tbackground-position: 100% 50%;\n\t}\n\t100% {\n\t\tbackground-position: 0% 50%;\n\t}\n}",".name {\n\tfont-size: 100px;\n}\n\n.quote{\n\tfont-weight: 300;\n}\n",".navbar{\n    background: linear-gradient(to left top, rgb(56, 189, 248), rgb(251, 113, 133), rgb(163, 230, 53));\n    opacity: 0.8;\n}",".project-title{\n\tcolor: $cornflowerblue;\n}\n\n.card{\n\tbox-shadow: $box-shadow-black;\n}",".div-img{\n    text-align: center;\n}\n\n.img-project{\n    height: 150px;\n    width: 300px;\n    margin-block: 20px;\n}\n\n\n.fab{\n    height: 20px;\n    width: 20px;\n}"],"names":[],"sourceRoot":""}
+{
+  "version": 3,
+  "file": "static/css/main.81379ac0.css",
+  "mappings": "AAAA,EAGI,sBADA,QAAS,CADT,SAEsB,CACzB,OCHA,wBAAoC,CACjC,YAKI,wBCPe,CDKf,iBAAkB,CAClB,8BCJ8B,CDE9B,YAAa,CAIb,iBALA,WAKiB,CACpB,cAEA,aCXkB,CDYlB,QEXD,mBAAoB,CACvB,QCCA,4CAA6C,CACrC,qCAHR,kEAAuE,CACvE,yBAE6C,CAC7C,4BAGA,GACC,yBAA2B,CAE5B,IACC,4BAA6B,CAE9B,GACC,yBAA2B,EAI7B,oBACC,GACC,yBAA2B,CAE5B,IACC,4BAA6B,CAE9B,GACC,yBAA2B,EC3B7B,MACC,eAAgB,CAChB,OAGA,eAAgB,CCFhB,eCFA,aLA8B,CKC9B,MAGA,8BLHqC,CIFtC,QACI,+DAAkG,CAClG,UAAY,CEFhB,SACI,iBAAkB,CACrB,aAGG,YAAa,CAEb,kBADA,WACkB,CACrB,KAIG,WAAY,CACZ,UAAW",
+  "sources": [
+    "styles/core/reset.scss",
+    "styles/layout/AboutMe.scss",
+    "styles/core/variables.scss",
+    "styles/layout/Footer.scss",
+    "styles/layout/Header.scss",
+    "styles/layout/Hero.scss",
+    "styles/layout/Navbar.scss",
+    "styles/layout/ListProjects.scss",
+    "styles/layout/ProjectDetail.scss"
+  ],
+  "sourcesContent": [
+    "*{\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}",
+    ".about{\n\tbackground-color: rgb(233, 236, 239);\n    &__img {\n        width: 400px;\n        height: 400px;\n        border-radius: 50%;\n        box-shadow: $box-shadow-black;\n        border: 3px ridge $darkorchid;\n        object-fit: cover;\n    }\n    &__title {\n\t    color: $darkorchid;\n    }\n}",
+    "$darkorchid: darkorchid;\n$cornflowerblue: cornflowerblue;\n$box-shadow-black: 7px 7px 7px #3a3a3d;\n$font-nunito: 'Nunito', sans-serif;\n",
+    ".footer{\n    padding-inline: 10px;\n}",
+    ".header {\n\tbackground: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\n\tbackground-size: 400% 400%;\n\t-webkit-animation: gradient 15s ease infinite;\n\t        animation: gradient 15s ease infinite;\n}\n\n@-webkit-keyframes gradient {\n\t0% {\n\t\tbackground-position: 0% 50%;\n\t}\n\t50% {\n\t\tbackground-position: 100% 50%;\n\t}\n\t100% {\n\t\tbackground-position: 0% 50%;\n\t}\n}\n\n@keyframes gradient {\n\t0% {\n\t\tbackground-position: 0% 50%;\n\t}\n\t50% {\n\t\tbackground-position: 100% 50%;\n\t}\n\t100% {\n\t\tbackground-position: 0% 50%;\n\t}\n}",
+    ".name {\n\tfont-size: 100px;\n}\n\n.quote{\n\tfont-weight: 300;\n}\n",
+    ".navbar{\n    background: linear-gradient(to left top, rgb(56, 189, 248), rgb(251, 113, 133), rgb(163, 230, 53));\n    opacity: 0.8;\n}",
+    ".project-title{\n\tcolor: $cornflowerblue;\n}\n\n.card{\n\tbox-shadow: $box-shadow-black;\n}",
+    ".div-img{\n    text-align: center;\n}\n\n.img-project{\n    height: 150px;\n    width: 300px;\n    margin-block: 20px;\n}\n\n\n.fab{\n    height: 20px;\n    width: 20px;\n}"
+  ],
+  "names": [],
+  "sourceRoot": ""
+}
