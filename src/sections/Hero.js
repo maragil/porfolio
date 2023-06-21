@@ -10,8 +10,8 @@ function Hero () {
 
                 {/* <!-- CITA--> */}
                     <p className="fs-4 quote">
-                        {/* No es donde estábamos, ni donde estamos, sino dónde queremos estar. */}
-                        No hay una segunda oportunidad para una primera impresión.
+                        No es donde estábamos, ni donde estamos, sino donde queremos estar.
+                        {/* No hay una segunda oportunidad para una primera impresión. */}
                         </p>
 
                 {/* <!-- LINKS --> */}

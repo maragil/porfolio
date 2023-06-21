@@ -1,4 +1,37 @@
-.navbar{
-    background: linear-gradient(to left top, rgb(56, 189, 248), rgb(251, 113, 133), rgb(163, 230, 53));
-    opacity: 0.8;
-}
+
+
+//  .navbar{
+// 	background: $background-animation;
+// 	background-size: $background-size;
+// 	-webkit-animation: $webkit-animation;
+// 	        animation: $animation;
+//     opacity: 0.8;
+//  }
+
+// .navbar{
+//      opacity: 0.8;
+// }
+
+// @-webkit-keyframes gradient {
+// 	0% {
+// 		background-position: 0% 50%;
+// 	}
+// 	50% {
+// 		background-position: 100% 50%;
+// 	}
+// 	100% {
+// 		background-position: 0% 50%;
+// 	}
+// }
+
+// @keyframes gradient {
+// 	0% {
+// 		background-position: 0% 50%;
+// 	}
+// 	50% {
+// 		background-position: 100% 50%;
+// 	}
+// 	100% {
+// 		background-position: 0% 50%;
+// 	}
+// }
