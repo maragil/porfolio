@@ -3,7 +3,6 @@ function Footer() {
     return (
 
         <footer className="bg-dark text-white ">
-            {/* <div className="container"> */}
                 <nav className="d-flex justify-content-between pt-4 footer-nav footer">
                     {/* <!-- Logo --> */}
                     <a  href="#home"
@@ -29,7 +28,6 @@ function Footer() {
                         </li>
                     </ul>
                 </nav>
-            {/* </div> */}
         </footer>
     );
 }

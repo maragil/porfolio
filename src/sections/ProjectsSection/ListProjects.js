@@ -10,6 +10,7 @@ function ListProjects ({data}) {
 
     return (
         <section className="container" id="projects">
+
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
                     <h2 className="project-title">Proyectos</h2>
@@ -17,7 +18,6 @@ function ListProjects ({data}) {
                 </div>
 
                 {/* <!-- Proyectos --> */}
-
                 <ul className="row justify-content-center gap-5">
                     {htmlData}
                 </ul>
