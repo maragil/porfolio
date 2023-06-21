@@ -24,7 +24,7 @@ function ProjectDetail ({eachProject}){
 
                         <img    src= {`/img/${eachProject.img}`}
                                 alt={`Imagen del proyecto ${eachProject.name}`}
-                                className="img-project"/>
+                                className="img-project img-fluid"/>
 
                     </a>
                 </div>
