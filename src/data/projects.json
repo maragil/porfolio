@@ -6,7 +6,7 @@
         "desc": "Buscador de personajes de la serie Harry Potter. Puedes buscarlos por sus nombres o por la casa a la que  pertenecen.",
         "tec": "HTML5 - SCSS - REACT JS - Git - GitHub",
         "repo": "https://github.com/maragil/harry-potter-character-search",
-        "img": "hp-character.png"
+        "img": "/img-projects/hp-character.png"
     },
         {
         "id": 1,
@@ -15,7 +15,7 @@
         "desc": "Buscador de personajes Pokemon según el tipo al que pertencen.",
         "tec": "HTML5 - CSS3 - REACT JS - Git - GitHub",
         "repo": "https://github.com/maragil/pokemon-filter",
-        "img": "pokedex.png"
+        "img": "/img-projects/pokedex.png"
     },
         {
         "id": 2,
@@ -24,7 +24,7 @@
         "desc": "Página Web con información y secciones.",
         "tec": "HTML5 - SCSS - Git - GitHub",
         "repo": "https://github.com/maragil/landing-web",
-        "img": "sport-web.png"
+        "img": "/img-projects/sport-web.png"
     },
         {
         "id": 3,
@@ -33,7 +33,7 @@
         "desc": "Pulsa sus botones para hacer cálculos matemáticos.",
         "tec": "HTML5 - CSS3 - JavaScript - Git - GitHub",
         "repo": "https://github.com/maragil/calculator-js",
-        "img": "calculator-js.png"
+        "img": "/img-projects/calculator-js.png"
     },
         {
         "id": 4,
@@ -42,7 +42,7 @@
         "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
         "tec": "HTML5 - CSS3 - React JS - Git - GitHub",
         "repo": "https://github.com/maragil/Friends-phrase-search-engine",
-        "img": "friends-phrases.png"
+        "img": "/img-projects/friends-phrases.png"
     },
         {
         "id": 5,
@@ -51,7 +51,7 @@
         "desc": "Crea tus propias tarjetas de visita personalizadas, modificalas cuando quieras y compártelas con tus contactos.",
         "tec": "HTML5 - SCSS - React JS - Node JS - Git - GitHub",
         "repo": "https://github.com/maragil/awesome-profile-cards",
-        "img": "awesome-profile.png"
+        "img": "/img-projects/awesome-profile.png"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "desc": "¿Cuántos intentos necesitas para adivinar el número?",
         "tec": "HTML5 - CSS3 - JavaScript - Git - GitHub",
         "repo": "https://github.com/maragil/guess-the-number",
-        "img": "guess-the-number.png"
+        "img": "/img-projects/guess-the-number.png"
     },
     {
         "id": 7,
@@ -69,7 +69,7 @@
         "desc": "Escaparate en línea para mostrar tus proyectos y añadir proyectos nuevos.",
         "tec": "HTML5 - SCSS - JavaScript - React JS - Node JS - Git - GitHub",
         "repo": "https://github.com/maragil/personal-projects-display",
-        "img": "personal-projects.png"
+        "img": "/img-projects/personal-projects.png"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@
         "desc": "Web con información social de los miembros de un equipo.",
         "tec": "HTML5 - SCSS - GULP - Git - GitHub ",
         "repo": "https://github.com/maragil/social-info-web",
-        "img": "social-info.png"
+        "img": "/img-projects/social-info.png"
     }
 ]
 
