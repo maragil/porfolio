@@ -1,18 +1,18 @@
-import ProjectDetail from "./ProjectDetail";
+import Detail from "./Detail";
 
-function ListProjects ({data}) {
+function List ({data}) {
 
     // const [data, setData] = useState(projects);
 
     const htmlData = data.map((eachProject) => {
-        return <ProjectDetail eachProject={eachProject}/>;
+        return <Detail eachProject={eachProject}/>;
     });
 
     return (
         <section className="container" id="projects">
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
-                    <h2 className="project-title">Proyectos</h2>
+                    <h2 className="project-title fw-bold">Proyectos</h2>
                     <p>Mira mis proyectos más recientes</p>
                 </div>
 
@@ -28,4 +28,4 @@ function ListProjects ({data}) {
     );
 }
 
-export default ListProjects;
+export default List;

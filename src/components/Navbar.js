@@ -24,15 +24,18 @@ function Navbar () {
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <a  className="nav-link active"
-                                href="#projects">Proyectos</a>
+                                href="#projects"
+                                title="Proyectos Maria Araujo">Proyectos</a>
                         </li>
                         <li className="nav-item">
                             <a  className="nav-link active"
-                                href="#aboutme">Sobre mí</a>
+                                href="#aboutme"
+                                title="Sobre Maria Araujo">Sobre mí</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active"
                                 target="_blank"
+                                title="CV Maria Araujo"
                                 href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a>
                         </li>
                     </ul>

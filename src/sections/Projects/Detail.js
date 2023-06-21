@@ -1,4 +1,4 @@
-function ProjectDetail ({eachProject}){
+function Detail ({eachProject}){
 
     return (
 
@@ -8,10 +8,12 @@ function ProjectDetail ({eachProject}){
 
                     <a href={eachProject.url}
                         className="text-reset fw-bold text-decoration-none"
-                        target= "_blank"> {eachProject.name}</a>
+                        target= "_blank"
+                        title={`Ver web ${eachProject.name}`}> {eachProject.name}</a>
 
-                        <a href={eachProject.repo}
-                        target="_blank">
+                        <a  href={eachProject.repo}
+                            target="_blank"
+                            title={`Repositorio de ${eachProject.name}`}>
                         <i className="fab fa-github ms-3"></i>
                     </a>
                 </h5>
@@ -26,7 +28,8 @@ function ProjectDetail ({eachProject}){
 
                         <img    src= {`/img/${eachProject.img}`}
                                 alt={`Imagen del proyecto ${eachProject.name}`}
-                                className="img-project img-fluid"/>
+                                className="img-project img-fluid"
+                                title={`Ver web ${eachProject.name}`}/>
 
                     </a>
                 </div>
@@ -42,4 +45,4 @@ function ProjectDetail ({eachProject}){
     )
 }
 
-export default ProjectDetail;
+export default Detail;

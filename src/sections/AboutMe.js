@@ -16,6 +16,7 @@ function AboutMe () {
                     {/* <!-- BOTÓN --> */}
                     <a className="btn btn-outline-dark btn-lg text-uppercase bg-dark text-white"
                         aria-label="cv"
+                        title="CV Maria Araujo"
                         target="_blank"
                         href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">cv</a>
                 </div>

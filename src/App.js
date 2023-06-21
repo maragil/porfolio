@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
-import ListProjects from './sections/ProjectsSection/ListProjects';
+import List from './sections/Projects/List';
 import projects from '../src/data/projects.json';
 import { useState } from 'react';
 
@@ -27,7 +27,7 @@ function App() {
             <AboutMe/>
 
             {/* <!-- PROJECTS --> */}
-            <ListProjects  data={data}/>
+            <List  data={data}/>
 
             {/* <!-- FOOTER --> */}
             <Footer/>
