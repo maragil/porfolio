@@ -18,6 +18,7 @@ function AboutMe () {
                         aria-label="cv"
                         title="CV Maria Araujo"
                         target="_blank"
+                        rel="noreferrer"
                         href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">cv</a>
                 </div>
             </div>

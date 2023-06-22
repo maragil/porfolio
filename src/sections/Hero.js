@@ -18,16 +18,19 @@ function Hero () {
                 <div className="p-5 icons d-flex justify-content-evenly">
                     <a  href="https://github.com/maragil"
                         target="_blank"
+                        rel="noreferrer"
                         title="GitHub Maria Araujo">
                         <i className="fab fa-github fa-3x socialicons text-white"></i></a>
 
                     <a  href="https://www.linkedin.com/feed/"
                         target="_blank"
+                        rel="noreferrer"
                         title="Linkedin Maria Araujo">
                         <i className="fab fa-linkedin fa-3x socialicons text-white"></i></a>
 
                     <a  href="https://twitter.com/araujomaria84"
                         target="_blank"
+                        rel="noreferrer"
                         title="Twitter Maria Araujo">
                         <i className="fab fa-twitter fa-3x socialicons text-white"></i></a>
                 </div>

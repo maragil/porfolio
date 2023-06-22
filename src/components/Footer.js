@@ -14,18 +14,21 @@ function Footer() {
                         <li>
                             <a  href="https://github.com/maragil"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="me-4"
                                 title="GitHub Maria Araujo">
                                 <i className="fab fa-github fa-2x socialicons text-white "></i>
                             </a>
                             <a  href="https://www.linkedin.com/feed/"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="me-4"
                                 title="Linkedin Maria Araujo">
                                 <i className="fab fa-linkedin fa-2x socialicons text-white"></i>
                             </a>
                             <a  href="https://twitter.com/araujomaria84"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="me-3"
                                 title="Twitter Maria Araujo">
                                 <i className="fab fa-twitter fa-2x socialicons text-white"></i>

@@ -9,10 +9,12 @@ function Detail ({eachProject}){
                     <a href={eachProject.url}
                         className="text-reset fw-bold text-decoration-none"
                         target= "_blank"
+                        rel="noreferrer"
                         title={`Ver web ${eachProject.name}`}> {eachProject.name}</a>
 
                         <a  href={eachProject.repo}
                             target="_blank"
+                            rel="noreferrer"
                             title={`Repositorio de ${eachProject.name}`}>
                         <i className="fab fa-github ms-3"></i>
                     </a>
@@ -24,7 +26,8 @@ function Detail ({eachProject}){
 
                     <a href={eachProject.url}
                     className="text-reset "
-                        target= "_blank">
+                        target= "_blank"
+                        rel="noreferrer">
 
                         <img    src= {`/img/${eachProject.img}`}
                                 alt={`Imagen del proyecto ${eachProject.name}`}

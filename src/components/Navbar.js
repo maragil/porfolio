@@ -35,6 +35,7 @@ function Navbar () {
                         <li className="nav-item">
                             <a className="nav-link active"
                                 target="_blank"
+                                rel="noreferrer"
                                 title="CV Maria Araujo"
                                 href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a>
                         </li>
