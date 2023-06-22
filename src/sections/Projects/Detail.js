@@ -2,7 +2,7 @@ function Detail ({eachProject}){
 
     return (
 
-        <div className="col-md-5 card mt-3 card d-flex flex-column justify-content-center">
+        <div className="col-md-5 mt-3 card d-flex flex-column justify-content-center">
             <div className="card-body-overlay mt-2"  >
                 <h5 className="card-title text-center" >
 

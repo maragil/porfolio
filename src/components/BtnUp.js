@@ -6,7 +6,7 @@ function BtnUp () {
         <button className="btn-scrolltop btn-scrolltop-on"
                 id="btn_scrolltop">
 
-            <a href="#home">
+            <a href="#">
                 <img    src={arrow}
                         title='Volver arriba'
                         alt="Botón para volver arriba"

@@ -2,8 +2,6 @@ import Detail from "./Detail";
 
 function List ({data}) {
 
-    // const [data, setData] = useState(projects);
-
     const htmlData = data.map((eachProject) => {
         return <Detail eachProject={eachProject}/>;
     });
