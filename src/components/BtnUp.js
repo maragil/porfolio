@@ -1,18 +1,21 @@
-import fotoArrow from '../../src/images/btnUp.png';
+import arrow from '../../src/images/btnUp.png';
 
-function BtnUp ({handleClick}) {
+function BtnUp () {
     return (
-        <button className="btn-scrolltop"
-                id="btn_scrolltop"
-                onClick={handleClick}>
-                    <img    src={fotoArrow}
-                            title='Volver arriba'
-                            alt="Botón para volver arriba"
-                            className='btnup'/>
-            {/* <i className="fa-solid fa-angles-up btnup"></i> */}
-        </button>
 
+        <button className="btn-scrolltop btn-scrolltop-on"
+                id="btn_scrolltop">
+
+            <a href="#home">
+                <img    src={arrow}
+                        title='Volver arriba'
+                        alt="Botón para volver arriba"
+                        className='btnup'/>
+            </a>
+
+        </button>
     );
 }
 
 export default BtnUp;
+
