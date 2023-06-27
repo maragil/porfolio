@@ -1,4 +1,12 @@
+import DetailTec from "./DetailTec";
+
 function Detail ({eachProject}){
+
+    const tecImg = eachProject.tec.map((eachImg) => {
+return ( <DetailTec eachImg={eachImg}/>)
+     });
+
+    console.log(tecImg)
 
     return (
 
@@ -36,13 +44,7 @@ function Detail ({eachProject}){
 
                     </a>
                 </div>
-
-                <p className="d-flex flex-row justify-content-around tec">{eachProject.tec}
-                    {/* <a href={eachProject.repo}
-                        target="_blank">
-                        <i className="fab fa-github text-dark"></i>
-                    </a> */}
-                </p>
+{tecImg}
             </div>
         </div>
     )

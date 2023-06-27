@@ -5,7 +5,7 @@ function List ({data}) {
     const htmlData = data.map((eachProject) => {
         return <Detail eachProject={eachProject}/>;
     });
-
+console.log(htmlData)
     return (
         <section className="container" id="projects">
             <div className="row justify-content-center">
