@@ -79,6 +79,15 @@
         "tec": "HTML5 - SCSS - GULP - Git - GitHub ",
         "repo": "https://github.com/maragil/social-info-web",
         "img": "/img-projects/social-info.png"
+    },
+    {
+        "id": 9,
+        "name": "La coctelería de María",
+        "url":"https://cocktail-finder.maragil.com/",
+        "desc": "Buscador de cócteles. Puedes agregar o quitar cóctles de tu lista de favoritos.",
+        "tec": "HTML5 - SCSS - JavaScript - Node Js - GULP - Git - GitHub ",
+        "repo": "https://github.com/maragil/cocktail-finder",
+        "img": "/img-projects/cocktail-finder.png"
     }
 ]
 

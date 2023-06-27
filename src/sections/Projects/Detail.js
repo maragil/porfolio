@@ -37,7 +37,7 @@ function Detail ({eachProject}){
                     </a>
                 </div>
 
-                <p className="d-flex flex-row justify-content-around">{eachProject.tec}
+                <p className="d-flex flex-row justify-content-around tec">{eachProject.tec}
                     {/* <a href={eachProject.repo}
                         target="_blank">
                         <i className="fab fa-github text-dark"></i>
