@@ -1,12 +1,21 @@
 [
-        {
+    {
+
         "id": 0,
         "name": "Harry Potter",
-        "url":"https://harry-potter-character-search.maragil.com",
+        "url": "https://harry-potter-character-search.maragil.com",
         "desc": "Buscador de personajes de la serie Harry Potter. Puedes buscarlos por sus nombres o por la casa a la que  pertenecen.",
-        "tec": [{"logo" : "html5.png"},{"logo" : "github.png"}],
+        "tec": [
+                {"logo" : "html5.png"},
+                {"logo" : "sass.png"},
+                {"logo" : "reactjs.png"},
+                {"logo" : "nodejs.png"},
+                {"logo" : "git.png"},
+                {"logo" : "github.png"}
+            ],
         "repo": "https://github.com/maragil/harry-potter-character-search",
         "img": "/img-projects/hp-character.png"
+
     }
 ]
 

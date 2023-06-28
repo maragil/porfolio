@@ -3,10 +3,8 @@ import DetailTec from "./DetailTec";
 function Detail ({eachProject}){
 
     const tecImg = eachProject.tec.map((eachImg) => {
-return ( <DetailTec eachImg={eachImg}/>)
-     });
-
-    console.log(tecImg)
+        return ( <DetailTec eachImg={eachImg}/>)
+    });
 
     return (
 
@@ -28,8 +26,6 @@ return ( <DetailTec eachImg={eachImg}/>)
                     </a>
                 </h5>
 
-                <p className="card-text text-center">{eachProject.desc}</p>
-
                 <div className='div-img'>
 
                     <a href={eachProject.url}
@@ -44,7 +40,12 @@ return ( <DetailTec eachImg={eachImg}/>)
 
                     </a>
                 </div>
-{tecImg}
+
+                <p className="card-text text-center">{eachProject.desc}</p>
+
+                <div className="d-flex justify-content-center gap-3 mb-3">
+                    {tecImg}
+                </div>
             </div>
         </div>
     )
