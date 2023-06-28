@@ -15,7 +15,7 @@ function Hero () {
                         </p>
 
                 {/* <!-- LINKS --> */}
-                <div className="p-5 icons d-flex justify-content-evenly">
+                <div className="p-5 icons d-flex justify-content-evenly gap-5">
                     <a  href="https://github.com/maragil"
                         target="_blank"
                         rel="noreferrer"

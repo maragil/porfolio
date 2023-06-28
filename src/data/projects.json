@@ -1,6 +1,5 @@
 [
     {
-
         "id": 0,
         "name": "Harry Potter",
         "url": "https://harry-potter-character-search.maragil.com",
@@ -15,7 +14,154 @@
             ],
         "repo": "https://github.com/maragil/harry-potter-character-search",
         "img": "/img-projects/hp-character.png"
+    },
 
+    {
+        "id": 1,
+        "name": "Colección Pokemon",
+        "url":"https://pokemon.maragil.com",
+        "desc": "Buscador de personajes Pokemon según el tipo al que pertencen.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "css3.png"},
+            {"logo" : "reactjs.png"},
+            {"logo" : "nodejs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/pokemon-filter",
+        "img": "/img-projects/pokedex.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Web Deportiva",
+        "url":"https://landing-web-example.maragil.com",
+        "desc": "Página Web con información y secciones.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "sass.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/landing-web",
+        "img": "/img-projects/sport-web.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Calculadora JavaScript",
+        "url":"https://calculator-js.maragil.com",
+        "desc": "Pulsa sus botones para hacer cálculos matemáticos.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "css31.png"},
+            {"logo" : "js.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/calculator-js",
+        "img": "/img-projects/calculator-js.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Buscador Friends",
+        "url":"https://friends-phrase-search-engine.maragil.com",
+        "desc": "Busca las frases de la serie más famosa de los 90. Puedes buscar por la frase, por el personaje e incluso añadir tus propias frases y personajes.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "css31.png"},
+            {"logo" : "reactjs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/Friends-phrase-search-engine",
+        "img": "/img-projects/friends-phrases.png"
+    },
+
+    {
+        "id": 5,
+        "name": "Awesome Profile Cards",
+        "url":"https://awesome-profile-cards.maragil.com",
+        "desc": "Crea tus propias tarjetas de visita personalizadas, modificalas cuando quieras y compártelas con tus contactos.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "sass.png"},
+            {"logo" : "reactjs.png"},
+            {"logo" : "nodejs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/awesome-profile-cards",
+        "img": "/img-projects/awesome-profile.png"
+    },
+
+    {
+        "id": 6,
+        "name": "Guess the number",
+        "url": "https://guess-the-number.maragil.com",
+        "desc": "¿Cuántos intentos necesitas para adivinar el número?",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "css31.png"},
+            {"logo" : "js.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/guess-the-number",
+        "img": "/img-projects/guess-the-number.png"
+    },
+
+    {
+        "id": 7,
+        "name": "Gestor de Proyectos molones",
+        "url":"https://personal-projects-display.maragil.com",
+        "desc": "Escaparate en línea para mostrar tus proyectos y añadir proyectos nuevos.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "sass.png"},
+            {"logo" : "js.png"},
+            {"logo" : "reactjs.png"},
+            {"logo" : "nodejs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/personal-projects-display",
+        "img": "/img-projects/personal-projects.png"
+    },
+
+    {
+        "id": 8,
+        "name": "Web Equipo Brújula",
+        "url":"https://social-info-web.maragil.com",
+        "desc": "Web con información social de los miembros de un equipo.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "sass.png"},
+            {"logo" : "nodejs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/social-info-web",
+        "img": "/img-projects/social-info.png"
+    },
+
+    {
+        "id": 9,
+        "name": "La coctelería de María",
+        "url":"https://cocktail-finder.maragil.com/",
+        "desc": "Buscador de cócteles. Puedes agregar o quitar cóctles de tu lista de favoritos.",
+        "tec": [
+            {"logo" : "html5.png"},
+            {"logo" : "sass.png"},
+            {"logo" : "js.png"},
+            {"logo" : "nodejs.png"},
+            {"logo" : "git.png"},
+            {"logo" : "github.png"}
+        ],
+        "repo": "https://github.com/maragil/cocktail-finder",
+        "img": "/img-projects/cocktail-finder.png"
     }
 ]
 

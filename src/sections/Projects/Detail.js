@@ -43,7 +43,7 @@ function Detail ({eachProject}){
 
                 <p className="card-text text-center">{eachProject.desc}</p>
 
-                <div className="d-flex justify-content-center gap-3 mb-3">
+                <div className="d-flex justify-content-center flex-wrap gap-3 mb-3 div-tec">
                     {tecImg}
                 </div>
             </div>

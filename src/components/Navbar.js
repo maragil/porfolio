@@ -9,7 +9,7 @@ function Navbar () {
                     <a  href="#"
                     className="navbar-brand text-decoration-none text-reset h5 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
-                <button className="navbar-toggler"
+                <button className="navbar-toggler text-white"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
