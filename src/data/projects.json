@@ -121,7 +121,6 @@
         "tec": [
             {"logo" : "html5.png"},
             {"logo" : "sass.png"},
-            {"logo" : "js.png"},
             {"logo" : "reactjs.png"},
             {"logo" : "nodejs.png"},
             {"logo" : "git.png"},
