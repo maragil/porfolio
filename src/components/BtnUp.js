@@ -1,21 +1,21 @@
-import arrow from '../../src/images/btnUp.png';
+// import arrow from '../../src/images/btnUp.png';
 
-function BtnUp () {
-    return (
+// function BtnUp () {
+//     return (
 
-        <button className="btn-scrolltop btn-scrolltop-on"
-                id="btn_scrolltop">
+//         <button className="btn-scrolltop btn-scrolltop-on"
+//                 id="btn_scrolltop">
 
-            <a href="#">
-                <img    src={arrow}
-                        title='Volver arriba'
-                        alt="Botón para volver arriba"
-                        className='btnup'/>
-            </a>
+//             <a href="#">
+//                 <img    src={arrow}
+//                         title='Volver arriba'
+//                         alt="Botón para volver arriba"
+//                         className='btnup'/>
+//             </a>
 
-        </button>
-    );
-}
+//         </button>
+//     );
+// }
 
-export default BtnUp;
+// export default BtnUp;
 

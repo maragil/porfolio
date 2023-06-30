@@ -1,6 +1,10 @@
+import ScrollToTop from "react-scroll-to-top";
+
 function Footer() {
 
     return (
+<>
+        <ScrollToTop smooth top="500" color="darkorchid"/>
 
         <footer className="col-ms-5 bg-dark text-white pt-3">
             {/* <div className="container"> */}
@@ -38,7 +42,7 @@ function Footer() {
                 </nav>
             {/* </div> */}
         </footer>
-
+</>
         // <footer className="bg-dark text-white ">
         //     {/* <div className="container"> */}
         //         <nav className="d-flex justify-content-between flex-wrap pt-4 footer-nav footer">

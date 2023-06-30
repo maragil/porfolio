@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
 import List from './sections/Projects/List';
-import BtnUp from './components/BtnUp';
+// import BtnUp from './components/BtnUp';
 import projects from '../src/data/projects.json';
 import {  useState } from 'react';
 
@@ -26,7 +26,7 @@ function App() {
                 {/* <!-- HERO --> */}
                 <Hero/>
 
-                <BtnUp />
+                {/* <BtnUp /> */}
 
             </header>
 
