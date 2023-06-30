@@ -1,3 +1,4 @@
+//ToDo: implementar el botón cn JS.
 import ScrollToTop from "react-scroll-to-top";
 
 function Footer() {
