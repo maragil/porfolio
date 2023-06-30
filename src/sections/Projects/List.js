@@ -1,18 +1,16 @@
-import OneProject from "./OneProject";
+import Detail from "./Detail";
 
-function AllProjects ({data}) {
-
-    // const [data, setData] = useState(projects);
+function List ({data}) {
 
     const htmlData = data.map((eachProject) => {
-        return <OneProject eachProject={eachProject}/>;
+        return <Detail eachProject={eachProject}/>;
     });
-
+console.log(htmlData)
     return (
         <section className="container" id="projects">
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
-                    <h2 className="project-title">Proyectos</h2>
+                    <h2 className="project-title fw-bold">Proyectos</h2>
                     <p>Mira mis proyectos más recientes</p>
                 </div>
 
@@ -28,4 +26,4 @@ function AllProjects ({data}) {
     );
 }
 
-export default AllProjects;
+export default List;
