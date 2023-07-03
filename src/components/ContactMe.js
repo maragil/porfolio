@@ -3,7 +3,8 @@ function ContactMe () {
     return (
 
 
-        <section id="contact" className="contact-section pb-3 pt-1" >
+        <section id="contact" className="contact-section pb-3" >
+            <div class="wave-contact"></div>
             <div className="container mt-3 contactContent d-flex flex-column align-items-center">
 
             <h1 className="text-center text-white">Contacta Conmigo</h1>
