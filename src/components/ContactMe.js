@@ -10,7 +10,7 @@ function ContactMe () {
 
             <div className="col-lg-10">
                 <form action="">
-                    <input type="text" className="form-control form-control-lg" placeholder="Nombre"/>
+                    <input type="text" className="form-control form-control" placeholder="Nombre"/>
                     <input type="email" className="form-control mt-3" placeholder="Email"/>
                     <input type="text" className="form-control mt-3" placeholder="Asunto"/>
                     <div className="mt-3">
