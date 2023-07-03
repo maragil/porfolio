@@ -7,9 +7,9 @@ function Footer() {
 <>
         <ScrollToTop smooth top="500" color="darkorchid"/>
 
-        <footer className="col-ms-5 bg-dark text-white pt-3">
+        <footer className="col-ms-5 bg-dark text-white">
             {/* <div className="container"> */}
-                <nav className=" d-flex  justify-content-between  pt-4 footer-nav footer">
+                <nav className=" d-flex  justify-content-between align-items-center pt-3 footer-nav footer">
                     {/* <!-- Logo --> */}
                     <a  href="#home"
                     title="Volver al inicio"
