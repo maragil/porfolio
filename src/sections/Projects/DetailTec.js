@@ -2,7 +2,7 @@ function DetailTec ({eachImg}) {
 
       return (
 
-         <img className='img-fluid logo-tec' src={`/img/img-tec/${eachImg.logo}`} />
+         <img className='img-fluid logo-tec' src={`/img/img-tec/${eachImg.logo}`}/>
       )
 }
 

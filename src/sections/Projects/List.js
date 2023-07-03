@@ -3,7 +3,8 @@ import Detail from "./Detail";
 function List ({data}) {
 
     const htmlData = data.map((eachProject) => {
-        return <Detail eachProject={eachProject}/>;
+        return <Detail  eachProject={eachProject}
+                        key={eachProject.id}/>;
     });
     return (
         <section className="container" id="projects">
@@ -15,7 +16,8 @@ function List ({data}) {
 
                 {/* <!-- Proyectos --> */}
 
-                <ul className="row justify-content-center gap-5">
+                <ul className="row justify-content-center gap-5"
+                >
                     {htmlData}
                 </ul>
             </div>
