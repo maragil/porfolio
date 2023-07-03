@@ -7,7 +7,7 @@ function List ({data}) {
                         key={eachProject.id}/>;
     });
     return (
-        <section className="container" id="projects">
+        <section className="container pb-4" id="projects">
             <div className="row justify-content-center">
                 <div className="col-12 text-center">
                     <h2 className="project-title">Proyectos</h2>
