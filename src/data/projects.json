@@ -150,7 +150,7 @@
         "id": 9,
         "name": "La coctelería de María",
         "url":"https://cocktail-finder.maragil.com/",
-        "desc": "Buscador de cócteles. Puedes agregar o quitar cóctles de tu lista de favoritos.",
+        "desc": "Buscador de cócteles. Puedes agregar o quitar cócteles de tu lista de favoritos.",
         "tec": [
             {"logo" : "html5.png"},
             {"logo" : "sass.png"},
