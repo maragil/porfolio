@@ -17,10 +17,12 @@ function ContactMe () {
                     <div className="mt-3">
                         <textarea className="form-control" rows="5" id="comment" name="text" placeholder="Comentario"></textarea>
                     </div>
+
+
+                    <input  type="submit"
+                            value="Enviar"
+                            className="btn bg-dark text-white btn-outline-dark mt-3" />
                 </form>
-
-                <button type="button" className="btn bg-dark text-white btn-outline-dark mt-3">Enviar</button>
-
             </div>
 
             </div>
