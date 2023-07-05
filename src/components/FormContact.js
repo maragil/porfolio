@@ -6,8 +6,7 @@ import emailjs from "@emailjs/browser";
 function FormContact() {
     const form = useRef();
 
-    const sendEmail = (e) => {
-    e.preventDefault();
+    const onSubmit = (data) => {
 
     emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
         .then((result) => {
@@ -19,7 +18,7 @@ function FormContact() {
         });
     };
 
-    const { register, formState: { errors } } = useForm();
+    const { register, formState: { errors }, handleSubmit } = useForm();
 
 
     return (
@@ -32,7 +31,7 @@ function FormContact() {
             <h1 className="text-center text-white">Contacta Conmigo</h1>
 
             <div className="col-lg-10">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={handleSubmit(onSubmit)}>
 
                     <input  type="text"
                             name="user_name"
@@ -71,10 +70,9 @@ function FormContact() {
                                     {...register('message', {
                                         required: true,
                                         maxLength: 500
-                                    })}>
-                                    {/* {errors.comentario?.type === 'required' && <p className="mt-2 ms-3">El campo comentario es requerido</p>} */}
-                                    {/* {errors.comentario?.type === 'maxLength' && <p className="mt-2 ms-3">El campo Comentario debe tener menos de 500 caracteres</p>} */}
-                        </textarea>
+                                    })}/>
+                                    {errors.message?.type === 'required' && <p className="mt-2 ms-3">El campo comentario es requerido</p>}
+                                    {errors.message?.type === 'maxLength' && <p className="mt-2 ms-3">El campo Comentario debe tener menos de 500 caracteres</p>}
                     </div>
 
                     <input  type="submit"
