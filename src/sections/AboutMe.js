@@ -4,7 +4,7 @@ function AboutMe () {
 
     return (
         <section className="col-lg-auto py-5 about mb-5 d-flex justify-content-center" id="aboutme">
-            <div class="wave"></div>
+            <div className="wave"></div>
             <div className="container row">
                 <div className="img col-5 d-none d-lg-block align-self-center">
                 <img    src={foto} alt="Imagen de perfil"

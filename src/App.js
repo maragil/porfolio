@@ -6,7 +6,7 @@ import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
 import List from './sections/Projects/List';
 // import BtnUp from './components/BtnUp';
-import ContactMe from './components/ContactMe';
+import FormContact from './components/FormContact';
 import projects from '../src/data/projects.json';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
 
             {/* CONTACT ME */}
 
-            <ContactMe />
+            <FormContact/>
 
             {/* <!-- FOOTER --> */}
             <Footer/>
