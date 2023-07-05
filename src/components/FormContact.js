@@ -1,13 +1,24 @@
+import { useRef } from 'react';
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 
 function FormContact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     const { register, formState: { errors }, handleSubmit } = useForm();
 
-    const onSubmit = (data) => {
-        console.log(data);
-    }
 
     return (
 
@@ -19,39 +30,43 @@ function FormContact() {
             <h1 className="text-center text-white">Contacta Conmigo</h1>
 
             <div className="col-lg-10">
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form ref={form} onSubmit={sendEmail}>
 
                     <input  type="text"
+                            name="user_name"
                             className="form-control form-control" placeholder="Nombre"
-                            {...register('nombre', {
+                            {...register('user_name', {
                                 required: true
                             })}/>
-                            {errors.nombre?.type === 'required' && <p className="mt-2 ms-3">El campo nombre es requerido</p>}
+                            {errors.user_name?.type === 'required' && <p className="mt-2 ms-3">El campo nombre es requerido</p>}
 
                     <input  type="email"
+                            name="user_email"
                             className="form-control mt-3"
                             placeholder="Email"
-                            {...register('email', {
+                            {...register('user_email', {
                                 required: true,
                                 pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i
                             })}/>
-                            {errors.email?.type === 'required' && <p className="mt-2 ms-3">El campo email es requerido</p>}
-                            {errors.email?.type === 'pattern' && <p className="mt-2 ms-3">El campo email es incorrecto</p>}
+                            {errors.user_email?.type === 'required' && <p className="mt-2 ms-3">El campo email es requerido</p>}
+                            {errors.user_email?.type === 'pattern' && <p className="mt-2 ms-3">El campo email es incorrecto</p>}
 
                     <input  type="text"
+                            name="subject"
                             className="form-control mt-3"
                             placeholder="Asunto"
-                            {...register('asunto', {
+                            {...register('subject', {
                                 required: true
                             })}/>
-                            {errors.asunto?.type === 'required' && <p className="mt-2 ms-3">El campo asunto es requerido</p>}
+                            {errors.subject?.type === 'required' && <p className="mt-2 ms-3">El campo asunto es requerido</p>}
 
                     <div className="mt-3">
                         <textarea   className="form-control"
-                                    rows="5" id="comment"
-                                    name="text"
+                                    rows="5"
+                                    id="message"
+                                    name="message"
                                     placeholder="Comentario"
-                                    {...register('comentario', {
+                                    {...register('message', {
                                         required: true,
                                         maxLength: 500
                                     })}>
