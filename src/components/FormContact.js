@@ -12,12 +12,14 @@ function FormContact() {
     emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
         .then((result) => {
             console.log(result.text);
-        }, (error) => {
+            form.current.reset();
+        },
+        (error) => {
             console.log(error.text);
         });
     };
 
-    const { register, formState: { errors }, handleSubmit } = useForm();
+    const { register, formState: { errors } } = useForm();
 
 
     return (
