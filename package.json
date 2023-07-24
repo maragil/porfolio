@@ -10,6 +10,7 @@
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-hook-form": "^7.45.1",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
@@ -23,9 +24,9 @@
     "eject": "react-scripts eject",
     "saveCname": "[ ! -f docs/CNAME ] || mv docs/CNAME .",
     "cleanDocs": "rm -rf docs",
-    "build2docs":"mv build docs",
+    "build2docs": "mv build docs",
     "restoreCname": "[ ! -f CNAME ] || mv CNAME docs/",
-    "docs":"npm run saveCname && npm run cleanDocs && npm run build && npm run build2docs && npm run restoreCname"
+    "docs": "npm run saveCname && npm run cleanDocs && npm run build && npm run build2docs && npm run restoreCname"
   },
   "eslintConfig": {
     "extends": [
