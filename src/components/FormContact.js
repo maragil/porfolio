@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import Recaptcha from './Recaptcha';
+
 
 
 function FormContact() {
@@ -74,6 +76,8 @@ function FormContact() {
                                     {errors.message?.type === 'required' && <p className="mt-2 ms-3">El campo comentario es requerido</p>}
                                     {errors.message?.type === 'maxLength' && <p className="mt-2 ms-3">El campo Comentario debe tener menos de 500 caracteres</p>}
                     </div>
+
+            <Recaptcha />
 
                     <input  type="submit"
                             value="Enviar"
