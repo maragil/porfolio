@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import Recaptcha from './Recaptcha';
 
 
-
 function FormContact() {
     const form = useRef();
 
@@ -41,7 +40,7 @@ function FormContact() {
                             {...register('user_name', {
                                 required: true
                             })}/>
-                            {errors.user_name?.type === 'required' && <p className="mt-2 ms-3">El campo nombre es requerido</p>}
+                            {errors.user_name?.type === 'required' && <p className="mt-2 ms-3 text-danger">El campo nombre es requerido</p>}
 
                     <input  type="email"
                             name="user_email"
@@ -51,8 +50,8 @@ function FormContact() {
                                 required: true,
                                 pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i
                             })}/>
-                            {errors.user_email?.type === 'required' && <p className="mt-2 ms-3">El campo email es requerido</p>}
-                            {errors.user_email?.type === 'pattern' && <p className="mt-2 ms-3">El campo email es incorrecto</p>}
+                            {errors.user_email?.type === 'required' && <p className="mt-2 ms-3 text-danger">El campo email es requerido</p>}
+                            {errors.user_email?.type === 'pattern' && <p className="mt-2 ms-3 text-danger">El campo email es incorrecto</p>}
 
                     <input  type="text"
                             name="subject"
@@ -61,7 +60,7 @@ function FormContact() {
                             {...register('subject', {
                                 required: true
                             })}/>
-                            {errors.subject?.type === 'required' && <p className="mt-2 ms-3">El campo asunto es requerido</p>}
+                            {errors.subject?.type === 'required' && <p className="mt-2 ms-3 text-danger">El campo asunto es requerido</p>}
 
                     <div className="mt-3">
                         <textarea   className="form-control"
@@ -73,8 +72,8 @@ function FormContact() {
                                         required: true,
                                         maxLength: 500
                                     })}/>
-                                    {errors.message?.type === 'required' && <p className="mt-2 ms-3">El campo comentario es requerido</p>}
-                                    {errors.message?.type === 'maxLength' && <p className="mt-2 ms-3">El campo Comentario debe tener menos de 500 caracteres</p>}
+                                    {errors.message?.type === 'required' && <p className="mt-2 ms-3 text-danger">El campo comentario es requerido</p>}
+                                    {errors.message?.type === 'maxLength' && <p className="mt-2 ms-3 text-danger">El campo Comentario debe tener menos de 500 caracteres</p>}
                     </div>
 
             <Recaptcha />
