@@ -24,7 +24,7 @@ function Recaptcha () {
                     onChange={onChange}
                 />
             </div>
-            {validCaptcha === false && <div className="msj_captcha">
+            {validCaptcha === false && <div>
                 <p className="mt-2 text-danger text-center">Por favor acepta el captcha</p>
             </div>}
         </>
