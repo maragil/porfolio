@@ -1,15 +1,21 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-import Recaptcha from './Recaptcha';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 function FormContact() {
+
+    let isRobot = true;
+
     const form = useRef();
 
     const onSubmit = (data) => {
 
-    emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
+        if(isRobot === false){
+            setValidCaptcha(true);
+
+        emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
         .then((result) => {
             console.log(result.text);
             form.current.reset();
@@ -17,13 +23,34 @@ function FormContact() {
         (error) => {
             console.log(error.text);
         });
+        }else{
+            console.log('Por favor acepta el captcha')
+            setValidCaptcha(false);
+        }
     };
 
     const { register, formState: { errors }, handleSubmit } = useForm();
 
+    //reCaptcha
+    const [validCaptcha, setValidCaptcha] = useState('null')
+
+    const captcha = useRef(null);
+
+    const onChange = () => {
+        isRobot = false;
+        // setValidCaptcha(true);
+
+        // console.log(isRobot);
+        // if(captcha.current.getValue()){
+        //     
+        // }else{
+        //     console.log('Por favor acepta el captcha')
+        //     setValidCaptcha(false);
+        // }
+    }
+
 
     return (
-
 
         <section id="contact" className="contact-section pb-3" >
             <div className="wave-contact"></div>
@@ -32,7 +59,8 @@ function FormContact() {
             <h1 className="text-center text-white">Contacta Conmigo</h1>
 
             <div className="col-lg-10">
-                <form ref={form} onSubmit={handleSubmit(onSubmit)}>
+                <form   ref={form}
+                        onSubmit={handleSubmit(onSubmit)}>
 
                     <input  type="text"
                             name="user_name"
@@ -76,7 +104,18 @@ function FormContact() {
                                     {errors.message?.type === 'maxLength' && <p className="mt-2 ms-3 text-danger">El campo Comentario debe tener menos de 500 caracteres</p>}
                     </div>
 
-            <Recaptcha />
+                    <div className="recaptcha">
+                        <ReCAPTCHA
+                        ref={captcha}
+                        sitekey="6LcAf04nAAAAAFRxQvFAKrc6vOliSvZohxMtVSc2"
+                        onChange={onChange}
+                        />
+                    </div>
+                    {
+                        validCaptcha === false && <div>
+                            <p className="mt-2 text-danger text-center">Por favor acepta el captcha</p>
+                        </div>
+                    }
 
                     <input  type="submit"
                             value="Enviar"
