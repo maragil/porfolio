@@ -5,7 +5,7 @@ function Navbar () {
         <nav className="navbar navbar-light navbar-expand-sm pt-5 pb-5 fw-bold d-flex flex-column">
                         {/* <!-- LOGO --> */}
                     <a  href="#home"
-                    className="navbar-brand text-decoration-none text-reset h5 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
+                    className="navbar-brand text-decoration-none text-reset fs-4 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
                 <button className="navbar-toggler text-white"
                     type="button"

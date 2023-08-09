@@ -3,7 +3,6 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
 import List from './sections/Projects/List';
-// import BtnUp from './components/BtnUp';
 import projects from '../src/data/projects.json';
 import {  useState } from 'react';
 
@@ -16,13 +15,11 @@ function App() {
     return (
         <div className="App">
 
-
             <header className="header">
 
                {/* <!-- HERO --> */}
                 <Hero/>
 
-                {/* <BtnUp /> */}
             </header>
 
             {/* <!-- ABOUT ME --> */}

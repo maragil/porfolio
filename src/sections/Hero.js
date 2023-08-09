@@ -3,16 +3,16 @@ import Navbar from '../components/Navbar';
 function Hero () {
 
     return (
-    <div className="container" id="home">
-
-          {/*NAVBAR */}
-            <Navbar/>
+    <div className="container1" id="home">
 
         <div  className="row pb-4 align-items-center flex-wrap m-0 hero-container">
 
+            {/*NAVBAR */}
+            <Navbar/>
+
             {/* <!-- NOMBRE--> */}
             <div className="text-center">
-                <h1 className="display-3 name">María Araujo Gil</h1>
+                <h1 className="display-2 name">María Araujo Gil</h1>
 
                 {/* <!-- CITA--> */}
                     <p className="fs-4 quote">
