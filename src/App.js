@@ -1,5 +1,4 @@
 import '../src/styles/App.scss';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import AboutMe from './sections/AboutMe';
@@ -20,14 +19,10 @@ function App() {
 
             <header className="header">
 
-                {/*NAVBAR */}
-                <Navbar/>
-
-                {/* <!-- HERO --> */}
+               {/* <!-- HERO --> */}
                 <Hero/>
 
                 {/* <BtnUp /> */}
-
             </header>
 
             {/* <!-- ABOUT ME --> */}
