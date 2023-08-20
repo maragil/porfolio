@@ -6,19 +6,19 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 function FormContact() {
 
-    let isRobot = true;
-
     const form = useRef();
 
     const onSubmit = (data) => {
 
-        if(isRobot === false){
+        let captchaResponse = captcha.current.getValue()
+        if (captchaResponse.length !== 0){
             setValidCaptcha(true);
 
         emailjs.sendForm('service_gga7l6f', 'template_f3yvf2a', form.current, 'dSJbfIpynOc6bplP3')
         .then((result) => {
             console.log(result.text);
             form.current.reset();
+            captcha.current.reset();
         },
         (error) => {
             console.log(error.text);
@@ -36,18 +36,7 @@ function FormContact() {
 
     const captcha = useRef(null);
 
-    const onChange = () => {
-        isRobot = false;
-        // setValidCaptcha(true);
 
-        // console.log(isRobot);
-        // if(captcha.current.getValue()){
-        //     
-        // }else{
-        //     console.log('Por favor acepta el captcha')
-        //     setValidCaptcha(false);
-        // }
-    }
 
 
     return (
@@ -108,7 +97,6 @@ function FormContact() {
                         <ReCAPTCHA
                         ref={captcha}
                         sitekey="6LcAf04nAAAAAFRxQvFAKrc6vOliSvZohxMtVSc2"
-                        onChange={onChange}
                         />
                     </div>
                     {
