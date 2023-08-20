@@ -1,4 +1,8 @@
+# dependencies
 node_modules
 */node_modules
 
 notas.md
+
+# local env files
+.env.local

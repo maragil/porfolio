@@ -25,17 +25,25 @@ function Navbar () {
                                 href="#projects"
                                 title="Proyectos Maria Araujo">Proyectos</a>
                         </li>
+
                         <li className="nav-item">
                             <a  className="nav-link active"
                                 href="#aboutme"
                                 title="Sobre Maria Araujo">Sobre mí</a>
                         </li>
+
                         <li className="nav-item">
                             <a className="nav-link active"
                                 target="_blank"
                                 rel="noreferrer"
                                 title="CV Maria Araujo"
                                 href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a  className="nav-link active text-light"
+                                href="#contact"
+                                title="Contacta conmigo">Contacto</a>
                         </li>
                     </ul>
                 </div>
