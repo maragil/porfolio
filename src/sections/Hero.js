@@ -1,12 +1,18 @@
+import Navbar from '../components/Navbar';
+
 function Hero () {
 
     return (
-    <div className="container">
-        <div id="home" className="row py-3 text-white min-vh-100 align-items-center flex-wrap m-0">
+    <div className="container1" id="home">
+
+        <div  className="row pb-4 align-items-center flex-wrap m-0 hero-container">
+
+            {/*NAVBAR */}
+            <Navbar/>
 
             {/* <!-- NOMBRE--> */}
             <div className="text-center">
-                <h1 className="display-3 name">María Araujo Gil</h1>
+                <h1 className="display-2 name">María Araujo Gil</h1>
 
                 {/* <!-- CITA--> */}
                     <p className="fs-4 quote">
@@ -20,23 +26,23 @@ function Hero () {
                         target="_blank"
                         rel="noreferrer"
                         title="GitHub Maria Araujo">
-                        <i className="fab fa-github fa-3x socialicons text-white"></i></a>
+                        <i className="fab fa-github fa-3x socialicons"></i></a>
 
                     <a  href="https://www.linkedin.com/feed/"
                         target="_blank"
                         rel="noreferrer"
                         title="Linkedin Maria Araujo">
-                        <i className="fab fa-linkedin fa-3x socialicons text-white"></i></a>
+                        <i className="fab fa-linkedin fa-3x socialicons"></i></a>
 
                     <a  href="https://twitter.com/araujomaria84"
                         target="_blank"
                         rel="noreferrer"
                         title="Twitter Maria Araujo">
-                        <i className="fab fa-twitter fa-3x socialicons text-white"></i></a>
+                        <i className="fab fa-twitter fa-3x socialicons "></i></a>
                 </div>
 
                 {/* <!-- BOTÓN --> */}
-                <a className="btn btn-outline-light btn-lg"
+                <a className="btn btn-outline-dark btn-lg"
                     aria-label="Más acerca de mi"
                     href="#aboutme">Más sobre mi</a>
             </div>

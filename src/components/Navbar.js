@@ -2,12 +2,10 @@ function Navbar () {
 
     return(
 
-        <nav className="navbar navbar-light navbar-expand-sm pt-4 text-light fw-bold">
-            <div className="container">
-
+        <nav className="navbar navbar-light navbar-expand-sm pt-5 pb-5 fw-bold d-flex flex-column">
                         {/* <!-- LOGO --> */}
                     <a  href="#home"
-                    className="navbar-brand text-decoration-none text-reset h5 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
+                    className="navbar-brand text-decoration-none text-reset fs-4 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
                 <button className="navbar-toggler text-white"
                     type="button"
@@ -23,13 +21,19 @@ function Navbar () {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav ms-auto text-uppercase">
                         <li className="nav-item">
-                            <a  className="nav-link active text-light"
+                            <a  className="nav-link active"
                                 href="#projects"
                                 title="Proyectos Maria Araujo">Proyectos</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active text-light"
+                            <a  className="nav-link active"
+                                href="#aboutme"
+                                title="Sobre Maria Araujo">Sobre mí</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link active"
                                 target="_blank"
                                 rel="noreferrer"
                                 title="CV Maria Araujo"
@@ -43,7 +47,6 @@ function Navbar () {
                         </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     )
 }

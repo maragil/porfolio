@@ -1,5 +1,17 @@
-.name {
-	font-size: 4.6rem;
+.container1{
+	padding-block: 100px;
+	padding-inline: 200px;
+	
+}
+
+.hero-container{
+	// background-color: rgba(253, 179, 252, 0.9);
+	// background: conic-gradient(at left center, rgba(249, 168, 212, 0.9), rgba(216, 180, 254, 0.9), rgba(129, 140, 248, 0.9));
+	// background: linear-gradient(to top, rgba(134, 239, 172, 0.9), rgb(192, 132, 252))
+	// background: conic-gradient(at left top, rgba(251, 113, 133, 0.9), rgba(253, 186, 116, 0.9));
+// background: conic-gradient(at left bottom, rgba(240, 171, 252, 0.9), rgb(74, 222, 128), rgba(190, 18, 60, 0.9));
+background: linear-gradient(to left top, rgb(254, 240, 138), rgba(251, 207, 232, 0.9), rgb(244, 114, 182));
+	border-radius: 10px;
 }
 
 .quote{
