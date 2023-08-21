@@ -1,7 +1,8 @@
 .container1{
 	padding-block: 100px;
-	padding-inline: 200px;
-	
+	display: flex;
+    justify-content: center;
+	// padding-inline: 200px;
 }
 
 .hero-container{
@@ -12,6 +13,7 @@
 // background: conic-gradient(at left bottom, rgba(240, 171, 252, 0.9), rgb(74, 222, 128), rgba(190, 18, 60, 0.9));
 background: linear-gradient(to left top, rgb(254, 240, 138), rgba(251, 207, 232, 0.9), rgb(244, 114, 182));
 	border-radius: 10px;
+	width: 80vw;
 }
 
 .quote{

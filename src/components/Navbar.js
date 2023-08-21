@@ -5,7 +5,7 @@ function Navbar () {
         <nav className="navbar navbar-light navbar-expand-sm pt-5 pb-5 fw-bold d-flex flex-column">
                         {/* <!-- LOGO --> */}
                     <a  href="#home"
-                    className="navbar-brand text-decoration-none text-reset fs-4 logo fw-bold" >&#8826; MaraGil &#x2571;&#x227B;</a>
+                    className="text-decoration-none text-reset fs-4 logo fw-bold pb-3" >&#8826; MaraGil &#x2571;&#x227B;</a>
 
                 <button className="navbar-toggler text-white"
                     type="button"
@@ -26,11 +26,11 @@ function Navbar () {
                                 title="Proyectos Maria Araujo">Proyectos</a>
                         </li>
 
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a  className="nav-link active"
                                 href="#aboutme"
                                 title="Sobre Maria Araujo">Sobre mí</a>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
                             <a className="nav-link active"
@@ -41,7 +41,7 @@ function Navbar () {
                         </li>
 
                         <li className="nav-item">
-                            <a  className="nav-link active text-light"
+                            <a  className="nav-link active"
                                 href="#contact"
                                 title="Contacta conmigo">Contacto</a>
                         </li>
