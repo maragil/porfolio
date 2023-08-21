@@ -21,7 +21,6 @@ function List ({data}) {
                     {htmlData}
                 </ul>
             </div>
-
         </section>
 
     );

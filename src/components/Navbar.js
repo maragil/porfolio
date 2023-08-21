@@ -26,12 +26,6 @@ function Navbar () {
                                 title="Proyectos Maria Araujo">Proyectos</a>
                         </li>
 
-                        {/* <li className="nav-item">
-                            <a  className="nav-link active"
-                                href="#aboutme"
-                                title="Sobre Maria Araujo">Sobre mí</a>
-                        </li> */}
-
                         <li className="nav-item">
                             <a className="nav-link active"
                                 target="_blank"

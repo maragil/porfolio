@@ -16,9 +16,7 @@ function Hero () {
 
                 {/* <!-- CITA--> */}
                     <p className="fs-4 quote">
-                        No es donde estábamos, ni donde estamos, sino donde queremos estar.
-                        {/* No hay una segunda oportunidad para una primera impresión. */}
-                        </p>
+                        Junior Frontend Developer</p>
 
                 {/* <!-- LINKS --> */}
                 <div className="p-5 icons d-flex justify-content-evenly gap-5">
