@@ -1,12 +1,22 @@
-# Getting Started with Create React App
+# <a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="public/img/favicon.png" alt="html5" width="30" height="30"/> PORFOLIO MARÍA ARAUJO GIL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es el repositorio que contiene mi porfolio. Es responsive y en él podéis encontrar una breve descripción sobre mi, un enlace a mi CV actualizado, una sección con mis proyectos personales y un formulario de contacto, además de todos mis enlaces tanto en [GitHub](https://github.com/maragil), en [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/), como en [Twitter](https://twitter.com/araujomaria84).
 
-## Available Scripts
+## 🚀 Comenzando 
 
-In the project directory, you can run:
+ Este proyecto se inició con la aplicación [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+ Para levantar el proyecto se debe ejecutar el comando: `npm start`
+
+### :floppy_disk: Scripts Disponibles
+
+En el proyecto se encuentran disponibles los siguientes scripts:
+
+- `saveCname`
+- `cleanDocs` : borra el archivo docs.
+- `build2docs` : mueve el archivo build a docs.
+- `restoreCname` : restaura el Cname.
+- `docs` : ejecuta todos los comandos anteriores.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -31,40 +41,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Despliegue 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Agrega notas adicionales sobre como hacer deploy_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Construido con 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Estas son las herramientas empleadas para la realización del Porfolio:
 
-## Learn More
+* [Bootstrap](https://getbootstrap.esdocu.com/) - El framework usado para el diseño de la web.
+* [React](https://es.react.dev/) - El framework usado para las funcionalidades de la web.
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+HookForm
+Emailjs
+ScrollToTop
