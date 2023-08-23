@@ -1,6 +1,38 @@
-# <a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="public/img/favicon.png" alt="html5" width="30" height="30"/> PORFOLIO MARÍA ARAUJO GIL
+# <a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="public/img/favicon.png" alt="html5" width="30" height="30"/> Bienvenidos a mi Porfolio!
 
-Este es el repositorio que contiene mi porfolio. Es responsive y en él podéis encontrar una breve descripción sobre mi, un enlace a mi CV actualizado, una sección con mis proyectos personales y un formulario de contacto, además de todos mis enlaces tanto en [GitHub](https://github.com/maragil), en [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/), como en [Twitter](https://twitter.com/araujomaria84).
+🙌🏻 Hola! Soy María Araujo Gil y en este espacio digital muestro la variedad de proyectos que he realizado, donde quiero dejar reflejadas mi creatividad, habilidades técnicas y dedicación al mundo de la programación. Soy una desarrolladora web motivada por el aprendizaje y la creación de experiencias interactivas y atractivas.
+
+## 🔎 ¿Qué encontrarás aquí?
+
+En él encontrarás una colección de proyectos personales. Cada uno de ellos ha sido cuidadosamente desarrollado para ofrecer soluciones prácticas y atractivas a diferentes desafíos. Junto con mis proyectos, también podrás acceder a mi [CV](https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view) actualizado para conocer más detalles sobre mi experiencia y habilidades.
+
+Este porforlio está diseñado de manera responsive y es un documento vivo al que voy añadiendo proyectos y funcionalidades nuevas según van surgiendo. 
+
+## 📑	Instrucciones de uso
+
+### 🔹Navegación rápida.
+
+En la barra de navegación se encuentran enlaces directos a diferentes secciones de mi porfolio:
+
+- **Proyectos:** Acceso a la sección de proyectos ubicada más abajo, donde se pueden explorar y descubrir detalles de cada uno de ellos.
+- **CV:** Al hacer click en ese enlace podrás acceder a mi currículum actualizado para obtener más información sobre mi experiencia y habilidades.
+- **Contacto:** Para comunicarte conmigo solo tendrás que dirigirte al formulario de contacto y enviarme un correo.
+
+### 🔹Redes sociales.
+
+Los iconos de redes sociales que encontrarás en mi portfolio son funcionales. Cada uno de ellos es un enlace directo a mis perfiles en distintas plataformas, como [GitHub](https://github.com/maragil), [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/) y [Twitter](https://twitter.com/araujomaria84).. Al hacer clic en ellos, se abrirá una nueva ventana, lo que te permitirá seguirme y mantenerte al tanto de mis últimas novedades.
+
+### 🔹Scroll Fácil.
+
+En la parte inferior derecha de la pantalla, he incorporado una flecha de scroll, la cual te permite regresar rápidamente al inicio de la página desde cualquier punto.
+
+
+
+
+
+Cada proyecto tiene un título que es un enlace a su web, una imagen con una vista previa, un enlace al repositorio de GitHub correspondiente y el detalle de las tecnologías empleadas en cada uno de ellos.
+
+Si tienes alguna pregunta, duda o interés, no dudes en ponerte en contacto a través del formulario que encontrarás en él.
 
 ## 🚀 Comenzando 
 
@@ -8,7 +40,7 @@ Este es el repositorio que contiene mi porfolio. Es responsive y en él podéis 
 
  Para levantar el proyecto se debe ejecutar el comando: `npm start`
 
-### :floppy_disk: Scripts Disponibles
+### 💾 Scripts Disponibles
 
 En el proyecto se encuentran disponibles los siguientes scripts:
 
