@@ -14,77 +14,68 @@ Este porforlio está diseñado de manera responsive y es un documento vivo al qu
 
 En la barra de navegación se encuentran enlaces directos a diferentes secciones de mi porfolio:
 
-- **Proyectos:** Acceso a la sección de proyectos ubicada más abajo, donde se pueden explorar y descubrir detalles de cada uno de ellos.
+- **Proyectos:** Acceso directo a la sección de proyectos ubicada más abajo, donde se pueden explorar y descubrir detalles de cada uno de ellos. Cada proyecto consta de: un título y una imagen con una vista previa que son un link a su web, un enlace al repositorio de GitHub correspondiente y el detalle de las tecnologías empleadas en cada uno de ellos
 - **CV:** Al hacer click en ese enlace podrás acceder a mi currículum actualizado para obtener más información sobre mi experiencia y habilidades.
 - **Contacto:** Para comunicarte conmigo solo tendrás que dirigirte al formulario de contacto y enviarme un correo.
 
 ### 🔹Redes sociales.
 
-Los iconos de redes sociales que encontrarás en mi portfolio son funcionales. Cada uno de ellos es un enlace directo a mis perfiles en distintas plataformas, como [GitHub](https://github.com/maragil), [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/) y [Twitter](https://twitter.com/araujomaria84).. Al hacer clic en ellos, se abrirá una nueva ventana, lo que te permitirá seguirme y mantenerte al tanto de mis últimas novedades.
+Los iconos de redes sociales que encontrarás en mi portfolio son funcionales. Cada uno de ellos es un enlace directo a mis perfiles en distintas plataformas, como [GitHub](https://github.com/maragil), [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/) y [Twitter](https://twitter.com/araujomaria84). Al hacer clic en ellos, se abrirá una nueva ventana, lo que te permitirá seguirme y mantenerte al tanto de mis últimas novedades.
 
 ### 🔹Scroll Fácil.
 
 En la parte inferior derecha de la pantalla, he incorporado una flecha de scroll, la cual te permite regresar rápidamente al inicio de la página desde cualquier punto.
 
 
+## 🚀 Comenzando
 
+Para ejecutar la aplicación en modo de desarrollo, sigue estos pasos:
 
+1. Clona el repositorio en tu terminal.
+2. Ejecuta el comando `npm start`.
+3. Abre tu navegador y accede a http://localhost:3000 para ver la aplicación en tiempo real.
+Recuerda que esta configuración te permite trabajar de manera eficiente en el proyecto y desplegarlo fácilmente.
 
-Cada proyecto tiene un título que es un enlace a su web, una imagen con una vista previa, un enlace al repositorio de GitHub correspondiente y el detalle de las tecnologías empleadas en cada uno de ellos.
+### 🔻 Comandos de Script.
 
-Si tienes alguna pregunta, duda o interés, no dudes en ponerte en contacto a través del formulario que encontrarás en él.
+Si quieres trabajar con el código fuente de este porfolio, encontrarás diponibles los siguientes scripts:
+- `saveCname` : Guarda el archivo CNAME utilizado para personalizar el dominio de tu sitio.
+- `cleanDocs` :  Elimina el directorio 'docs' que contiene archivos generados previamente.
+- `build2docs` : Transfiere los archivos generados en la carpeta 'build' al directorio 'docs' para su despliegue.
+- `restoreCname` : Restaura el archivo CNAME previamente guardado.
+- `docs` : ejecuta todos los comandos anteriores.// Ejecuta todos los comandos anteriores en secuencia.
 
-## 🚀 Comenzando 
-
- Este proyecto se inició con la aplicación [Create React App](https://github.com/facebook/create-react-app).
-
- Para levantar el proyecto se debe ejecutar el comando: `npm start`
-
-### 💾 Scripts Disponibles
-
-En el proyecto se encuentran disponibles los siguientes scripts:
-
-- `saveCname`
-- `cleanDocs` : borra el archivo docs.
-- `build2docs` : mueve el archivo build a docs.
-- `restoreCname` : restaura el Cname.
-- `docs` : ejecuta todos los comandos anteriores.
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
 
 ## 📦 Despliegue 
 
 _Agrega notas adicionales sobre como hacer deploy_
 
-## 🛠️ Construido con 
+## 🛠️ Herramientas y Tecnologías
 
-Estas son las herramientas empleadas para la realización del Porfolio:
+Mi portfolio ha sido creado utilizando una combinación de herramientas y tecnologías. A continuación, te presento las principales herramientas que he utilizado:
 
-* [Bootstrap](https://getbootstrap.esdocu.com/) - El framework usado para el diseño de la web.
-* [React](https://es.react.dev/) - El framework usado para las funcionalidades de la web.
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
+🔸	**Frameworks y Librerías**
 
-HookForm
-Emailjs
-ScrollToTop
+- [Bootstrap](https://getbootstrap.esdocu.com/) : Utilicé Bootstrap para el diseño y la estructura visual de la web. La flexibilidad y las utilidades de este framework fueron fundamentales para lograr un diseño responsivo y atractivo.
+
+- [Sass](https://sass-lang.com/) : Usé Sass como preprocesador de CSS para una gestión más eficiente y organizada de los estilos.
+  
+- [React](https://es.react.dev/) : Desarrollé las funcionalidades dinámicas de mi portfolio utilizando ReactJS. Esta biblioteca me permitió crear componentes reutilizables y una interfaz interactiva para los visitantes.
+
+🔸	**Diversidad en los Proyectos**
+
+Cada proyecto que encontrarás en mi portfolio está construido utilizando una variedad de tecnologías, dependiendo de las necesidades de cada proyecto. Algunas de las tecnologías que he utilizado en mis proyectos incluyen (pero no se limitan a):
+
+<a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+<a href="https://gulpjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="60" height="60"/> </a> 
+<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="60" height="60"/> </a> 
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/> </a> 
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="60" height="60"/> </a>
+
+
+
