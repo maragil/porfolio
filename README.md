@@ -2,11 +2,13 @@
 
 🙌🏻 Hola! Soy María Araujo Gil y en este espacio digital muestro la variedad de proyectos que he realizado, donde quiero dejar reflejadas mi creatividad, habilidades técnicas y dedicación al mundo de la programación. Soy una desarrolladora web motivada por el aprendizaje y la creación de experiencias interactivas y atractivas.
 
+
 ## 🔎 ¿Qué encontrarás aquí?
 
 En él encontrarás una colección de proyectos personales. Cada uno de ellos ha sido cuidadosamente desarrollado para ofrecer soluciones prácticas y atractivas a diferentes desafíos. Junto con mis proyectos, también podrás acceder a mi [CV](https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view) actualizado para conocer más detalles sobre mi experiencia y habilidades.
 
 Este porforlio está diseñado de manera responsive y es un documento vivo al que voy añadiendo proyectos y funcionalidades nuevas según van surgiendo. 
+
 
 ## 📑	Instrucciones de uso
 
@@ -20,14 +22,14 @@ En la barra de navegación se encuentran enlaces directos a diferentes secciones
 
 ### 🔹Redes sociales.
 
-Los iconos de redes sociales que encontrarás en mi portfolio son funcionales. Cada uno de ellos es un enlace directo a mis perfiles en distintas plataformas, como [GitHub](https://github.com/maragil), [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/) y [Twitter](https://twitter.com/araujomaria84). Al hacer clic en ellos, se abrirá una nueva ventana, lo que te permitirá seguirme y mantenerte al tanto de mis últimas novedades.
+Los iconos de redes sociales que encontrarás en mi portfolio son funcionales. Cada uno de ellos es un enlace directo a mis perfiles en distintas plataformas, como [GitHub](https://github.com/maragil), [Linkedin](https://www.linkedin.com/in/maria-araujo-gil/) y [Twitter](https://twitter.com/araujomaria84). Al hacer click en ellos, se abrirá una nueva ventana, lo que te permitirá seguirme y mantenerte al tanto de mis últimas novedades.
 
 ### 🔹Scroll Fácil.
 
 En la parte inferior derecha de la pantalla, he incorporado una flecha de scroll, la cual te permite regresar rápidamente al inicio de la página desde cualquier punto.
 
 
-## 🚀 Comenzando
+## 🚀 Iniciar la aplicación
 
 Para ejecutar la aplicación en modo de desarrollo, sigue estos pasos:
 
@@ -43,18 +45,27 @@ Si quieres trabajar con el código fuente de este porfolio, encontrarás diponib
 - `cleanDocs` :  Elimina el directorio 'docs' que contiene archivos generados previamente.
 - `build2docs` : Transfiere los archivos generados en la carpeta 'build' al directorio 'docs' para su despliegue.
 - `restoreCname` : Restaura el archivo CNAME previamente guardado.
-- `docs` : ejecuta todos los comandos anteriores.// Ejecuta todos los comandos anteriores en secuencia.
+- `docs` : Ejecuta todos los comandos anteriores en secuencia.
 
 
 ## 📦 Despliegue 
 
-_Agrega notas adicionales sobre como hacer deploy_
+La aplicación está configurada para que se pueda desplegar de manera sencilla en GitHub Pages siguiendo los siguientes pasos:
+  1. Asegúrate de que todos los cambios necesarios estén confirmados y guardados en tu repositorio.
+  2. Ejecuta el siguiente comando en tu terminal para generar los archivos necesarios para el despliegue:
+     
+     ```bash
+     npm run docs
+     
+     ```
+  3. Una vez completado, los archivos de construcción se encontrarán en la carpeta `docs`.
+
 
 ## 🛠️ Herramientas y Tecnologías
 
 Mi portfolio ha sido creado utilizando una combinación de herramientas y tecnologías. A continuación, te presento las principales herramientas que he utilizado:
 
-🔸	**Frameworks y Librerías**
+### 🔸Frameworks y Librerías
 
 - [Bootstrap](https://getbootstrap.esdocu.com/) : Utilicé Bootstrap para el diseño y la estructura visual de la web. La flexibilidad y las utilidades de este framework fueron fundamentales para lograr un diseño responsivo y atractivo.
 
@@ -62,7 +73,7 @@ Mi portfolio ha sido creado utilizando una combinación de herramientas y tecnol
   
 - [React](https://es.react.dev/) : Desarrollé las funcionalidades dinámicas de mi portfolio utilizando ReactJS. Esta biblioteca me permitió crear componentes reutilizables y una interfaz interactiva para los visitantes.
 
-🔸	**Diversidad en los Proyectos**
+### 🔸Diversidad en los Proyectos
 
 Cada proyecto que encontrarás en mi portfolio está construido utilizando una variedad de tecnologías, dependiendo de las necesidades de cada proyecto. Algunas de las tecnologías que he utilizado en mis proyectos incluyen (pero no se limitan a):
 
@@ -78,4 +89,5 @@ Cada proyecto que encontrarás en mi portfolio está construido utilizando una v
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="60" height="60"/> </a>
 
 
+¡Gracias por visitar mi espacio digital! 💚
 
