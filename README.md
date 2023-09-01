@@ -38,7 +38,7 @@ Para ejecutar la aplicación en modo de desarrollo, sigue estos pasos:
 3. Abre tu navegador y accede a http://localhost:3000 para ver la aplicación en tiempo real.
 Recuerda que esta configuración te permite trabajar de manera eficiente en el proyecto y desplegarlo fácilmente.
 
-### 🔻 Comandos de Script.
+## 🪡 Comandos de Script.
 
 Si quieres trabajar con el código fuente de este porfolio, encontrarás diponibles los siguientes scripts:
 - `saveCname` : Guarda el archivo CNAME utilizado para personalizar el dominio de tu sitio.
