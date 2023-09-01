@@ -33,10 +33,18 @@ En la parte inferior derecha de la pantalla, he incorporado una flecha de scroll
 
 Para ejecutar la aplicación en modo de desarrollo, sigue estos pasos:
 
-1. Clona el repositorio en tu terminal.
-2. Ejecuta el comando `npm start`.
-3. Abre tu navegador y accede a http://localhost:3000 para ver la aplicación en tiempo real.
-Recuerda que esta configuración te permite trabajar de manera eficiente en el proyecto y desplegarlo fácilmente.
+1. Clona este repositorio en tu máquina local.
+   ```bash
+   git clone https://github.com/tuusuario/porfolio.git
+   ```
+2. Navega a la carpeta del proyecto.
+   ```bash
+   cd porfolio
+   ```
+3. Instala las dependencias ejecutando el comando `npm install`. Este comando buscará en el archivo `package.json` las dependencias listadas y las descargará en una carpeta llamada `node_modules`.
+   
+4. Inicia la aplicación ejecutando el comando `npm start`.
+
 
 ## 🪡 Comandos de Script.
 
