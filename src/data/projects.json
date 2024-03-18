@@ -177,6 +177,18 @@
         ],
         "repo": "https://github.com/maragil/3enraya",
         "img": "3-en-raya.png"
+    },
+
+    {
+        "id": 11,
+        "name": "Shortcuts VsCode",
+        "url":"https://maragil.com/img/img-projects/shortcuts-vsc-linux.png",
+        "desc": "Atajos de Visual Studio Code para Linux",
+        "tec": [
+
+        ],
+        "repo": "https://github.com/maragil/shortcutsVsc",
+        "img": "shortcuts-vsc-linux.png"
     }
 
 ]

@@ -31,7 +31,7 @@ function Navbar () {
                                 target="_blank"
                                 rel="noreferrer"
                                 title="CV Maria Araujo"
-                                href="https://drive.google.com/file/d/10o8RU52tN787RjLF5TvUAIs-Zd5tM2qg/view">Currículum</a>
+                                href="https://drive.google.com/file/d/1yM6awmTbaz9JzEsJcUje_p_mCiy426dx/view?usp=sharing">Currículum</a>
                         </li>
 
                         <li className="nav-item">

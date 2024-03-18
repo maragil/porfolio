@@ -20,7 +20,7 @@ function AboutMe () {
                         title="CV Maria Araujo"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://drive.google.com/file/d/1seDzXtb2WqvUSyPvdAmb5lWINAJlfi44/view?usp=sharing">cv</a>
+                        href="https://drive.google.com/file/d/1yM6awmTbaz9JzEsJcUje_p_mCiy426dx/view?usp=drive_link">cv</a>
                 </div>
             </div>
         </section>
