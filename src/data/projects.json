@@ -13,7 +13,7 @@
                 {"logo" : "github.png"}
             ],
         "repo": "https://github.com/maragil/harry-potter-character-search",
-        "img": "/img-projects/hp-character.png"
+        "img": "hp-character.png"
     },
 
     {
@@ -29,7 +29,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/social-info-web",
-        "img": "/img-projects/social-info.png"
+        "img": "social-info.png"
     },
 
     {
@@ -46,7 +46,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/pokemon-filter",
-        "img": "/img-projects/pokedex.png"
+        "img": "pokedex.png"
     },
 
     {
@@ -61,7 +61,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/landing-web",
-        "img": "/img-projects/sport-web.png"
+        "img": "sport-web.png"
     },
 
     {
@@ -78,7 +78,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/cocktail-finder",
-        "img": "/img-projects/cocktail-finder.png"
+        "img": "cocktail-finder.png"
     },
 
     {
@@ -94,7 +94,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/calculator-js",
-        "img": "/img-projects/calculator-js.png"
+        "img": "calculator-js.png"
     },
 
     {
@@ -110,7 +110,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/Friends-phrase-search-engine",
-        "img": "/img-projects/friends-phrases.png"
+        "img": "friends-phrases.png"
     },
 
     {
@@ -127,7 +127,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/awesome-profile-cards",
-        "img": "/img-projects/awesome-profile.png"
+        "img": "awesome-profile.png"
     },
 
     {
@@ -143,7 +143,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/guess-the-number",
-        "img": "/img-projects/guess-the-number.png"
+        "img": "guess-the-number.png"
     },
 
     {
@@ -160,7 +160,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/personal-projects-display",
-        "img": "/img-projects/personal-projects.png"
+        "img": "personal-projects.png"
     },
 
     {
@@ -176,7 +176,7 @@
             {"logo" : "github.png"}
         ],
         "repo": "https://github.com/maragil/3enraya",
-        "img": "/img-projects/3-en-raya.png"
+        "img": "3-en-raya.png"
     }
 
 ]

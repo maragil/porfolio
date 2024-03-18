@@ -33,7 +33,7 @@ function Detail ({eachProject}){
                         target= "_blank"
                         rel="noreferrer">
 
-                        <img    src= {`/img/${eachProject.img}`}
+                        <img    src= {`/img/img-projects/${eachProject.img}`}
                                 alt={`Imagen del proyecto ${eachProject.name}`}
                                 className="img-project img-fluid"
                                 title={`Ver web ${eachProject.name}`}/>
